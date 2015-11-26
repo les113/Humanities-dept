@@ -1,0 +1,410 @@
+/* 
+*   These are colour specific styles for the oxtheme_xxx subthemes
+*   After making changes to this file please recompile all oxtheme_xxx.sass files. 
+*   These styles will then be imported by the relevant oxtheme_xxx subtheme 
+*/
+
+
+/* styles */
+
+.copyright {
+    color: $primaryColourText;
+}
+#branding, #branding a {
+    color:$primaryColourText;
+    text-decoration: none;
+}
+
+/* slideshow */
+
+.slideshow, .oxdrupal-slideshow.oxdrupal-slideshow-style-alt .slidetext {
+    background-color:$secondaryColour;
+    color:$secondaryColourText;
+}
+
+/* slideshow alt */
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-alt .views-slideshow-controls-text {
+        color:$secondaryColourText;
+    }
+.oxdrupal-slideshow.oxdrupal-slideshow-style-alt .views-slideshow-controls-text span:hover {
+        color:$primaryColour;
+        text-decoration: none;
+    }
+
+
+/* navigation */
+
+.navbar-default .navbar-nav {
+    >.active>a {
+        background-color: $activeColour;
+        color: $activeColourText; 
+    }
+
+    /* top menu */
+    >li>a,
+    >li>a:focus {
+        background-color: none;
+        color: $primaryColourText;
+    }
+    >li>a:hover {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+    }
+    >.active>a:hover {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+    }
+
+    >li>a:active,
+    >.active>a:active {
+        background-color: $activeColour;
+        color:$activeColourText;
+    }
+
+    li.expanded ul {
+        background-color: $primaryColour; 
+        color: $primaryColourText;
+    }
+     > li.expanded:hover > a {
+        background-color: $secondaryColour;
+        color: $secondaryColourText;
+    }
+     > li.expanded:hover > a:active {
+        background-color: $activeColour;
+        color: $activeColourText;
+    }
+}
+
+
+
+
+/* side menu */
+
+#block-menu-block-sidebar-nav {
+    .nav>li>a:link {
+    border-top: 1px solid $secondaryColour;
+    }
+    .nav ul li {
+        font-size: 0.9em;
+    }
+    .nav>li>a:hover {
+        background-color: $secondaryColour;
+        color: $secondaryColourText;
+    }
+    .nav>li.active>a {
+        background-color: $activeColour;
+        color: $activeColourText;
+    }
+    .nav>li.active>a:hover, .nav>li.active>a:active {
+        background-color: $secondaryColour;
+        color: $secondaryColourText;
+    }
+}
+
+/* wrappers */
+
+#wrapper-topbar, #wrapper-prefooter  {
+    background-color:$secondaryColour;
+    color:$secondaryColourText;
+}
+#wrapper-branding, #wrapper-navigation, #wrapper-footer {
+    background-color:$primaryColour;
+    color:$primaryColourText;
+    text-decoration: none;
+}
+footer h2, footer p, footer li, #footer li a, #footer a {
+    color:$primaryColourText;
+}
+
+/* search bar  */
+
+#block-search-form .btn { 
+  border: 1px solid $secondaryColour;
+  background-color: $secondaryColour;
+  color: $secondaryColourText;
+  
+}
+
+#block-search-form .btn:active,
+#block-search-form .btn:hover { 
+  border: 1px solid $activeColour;
+  background-color: $activeColour;
+  color: $activeColourText;
+}
+
+/* pagination */
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus
+    {
+    background-color: $secondaryColour;
+}
+
+
+/* gallery */
+
+.galleryformatter img {
+    border-bottom:3px solid white;
+}
+.galleryformatter .active img {
+    border-bottom:3px solid $activeColour;
+}
+.back, .forward, .next-slide, .prev-slide {
+    color:$secondaryColour;
+}
+
+/* forms */
+
+.btn-info {
+    background-color:$activeColour;
+    border-color: $activeColour;
+}
+.btn-info a {
+    color:$activeColourText;   
+}
+
+/* tags */
+
+.field-type-taxonomy-term-reference .btn-info:focus, 
+.field-type-taxonomy-term-reference .btn-info:hover, 
+.btn-info:hover,
+.btn-info:focus,
+.navpn .btn-info:hover,
+.navpn .btn-info:focus {
+    background-color:$secondaryColour;
+    border-color: $secondaryColour;
+    color:$secondaryColourText;
+}
+
+.field-type-taxonomy-term-reference .btn-info {
+    background-color: $activeColour;
+    border-color: $activeColour;
+    color: $activeColourText;
+}
+
+.navpn .btn-info {
+    background-color: $demphasisColour ;
+    border-color: $demphasisColour ;
+}
+
+/* site social icons */
+
+.block-social-media-links .fa {
+    color:#fff;
+}
+.block-social-media-links .fa:hover {
+    background-color: #fff;
+    color:$secondaryColour;
+}
+
+/* person social icons */
+
+.node-oxdrupal-person .fa {
+    color:$activeColour;
+}
+.node-oxdrupal-person .fa:hover {
+    color:$secondaryColour;
+}
+
+/* tabs */
+
+.nav-tabs>li.active>a {
+    background-color: $activeColour;
+    color: $activeColourText;
+}
+.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:active {
+    background-color: $secondaryColour;
+    color: $secondaryColourText;
+}
+
+/* slideshow */
+
+.oxdrupal-slideshow  {
+    background-color: $secondaryColour;
+}
+
+.oxdrupal-slideshow .views-row a { 
+    color: $secondaryColourText;
+}
+.oxdrupal-slideshow  .views-slideshow-pager-field-item {
+    background-color: $activeColour;
+    color:white;
+}
+.oxdrupal-slideshow  .views-slideshow-pager-field-item:hover {
+    background-color: white;
+    color: $activeColour;
+}
+.oxdrupal-slideshow  .views-slideshow-pager-field-item.active {
+    background-color: white;
+    color: $activeColour;
+}
+
+/* drupal resp menu */
+
+.mean-container .mean-bar {
+    background-color: $secondaryColour;
+}
+.mean-container .mean-nav {
+    background-color: $secondaryColour;
+    color:$secondaryColourText;
+}
+.mean-container .mean-nav ul li a:hover {
+    background-color: $activeColour;
+}
+
+/* table */
+
+    th {
+        background-color:$secondaryColour;
+        color:$secondaryColourText;
+    }
+	/*  Define the background color for all the ODD background rows  */
+	tr:nth-child(odd){ 
+		background: #fdfdfd;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	tr:nth-child(even){
+		background: #f8f8f8;
+	}
+	tr:hover, tr:hover a { 
+		background: $secondaryColour;
+        color: $secondaryColourText;
+	}
+
+
+/* text overlay for logo and footers */
+#sitelogo .textoverlay,
+#footer_1 .textoverlay,
+#footer_2 .textoverlay {
+    background: -moz-linear-gradient(top,  rgba($secondaryColour, 0.6) 0%, rgba($secondaryColour, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba($secondaryColour, 0.6)), color-stop(100%,rgba($secondaryColour, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba($secondaryColour, 0.6) 0%,rgba($secondaryColour, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba($secondaryColour, 0.6) 0%,rgba($secondaryColour, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba($secondaryColour, 0.6) 0%,rgba($secondaryColour, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba($secondaryColour, 0.6) 0%,rgba($secondaryColour, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondaryColour', endColorstr='$secondaryColour',GradientType=0 ); /* IE6-9 */
+}
+
+/* SSO login/logged in text */
+#block-oxdrupal-core-sso-login-box a,
+#you-are-logged-in-as a {
+    text-decoration: none;
+    color: $activeColourText;
+}
+#you-are-logged-in-as {
+    color:#fff;
+}
+
+/** featured meetings **/
+
+.date-listing-item {
+    background-color: $primaryColour;
+    
+    a {
+        color:$primaryColourText;
+    }
+
+    .listing-date {
+        background-color: $secondaryColour;
+
+        .date {
+            color:$secondaryColourText
+        }
+        .month {
+            color:$secondaryColourText
+        }
+    }
+}
+.view-meetings {
+    .view-footer {
+        background-color: $activeColour;
+    }
+    .view-footer:hover {
+        background-color: $secondaryColour;
+        color:$secondaryColourText
+    }
+    .view-footer a, .view-footer .fa-chevron-right {
+        color: $activeColourText;
+    }
+}
+
+#views_slideshow_cycle_main_oxdrupal_featured_meetings_slideshow-block_1 .views-row a {
+    display:inline;
+}
+
+/* Meetings carousel */
+
+.fa-chevron-right {
+        padding-left:10px;
+    }
+
+.display-summary, .display-summary-link,
+.view-oxdrupal-featured-meetings-slideshow {
+     background-color: $secondaryColour;
+}
+.display-summary-link .field-content {
+    background-color: $activeColour;
+    a {
+        color: $activeColourText;
+    }
+    .fa-chevron-right {
+
+        }
+}
+
+.display-summary-link .field-content:hover>a, .display-summary-link .field-content:hover {
+    background-color: $primaryColour;
+    color: $primaryColourText;
+}
+
+.display-summary {
+    color: $activeColourText;
+
+    .summary-detail {
+        background-color: $primaryColour;
+        color: $primaryColourText;
+        a {
+            color: $activeColourText;
+        }
+    }
+    
+    .day-of-month {
+        .date-display-single {
+            background-color: $primaryColour;
+            color: $primaryColourText;
+        }
+    }
+    .month-year {
+        .date-display-single {
+            color: $secondaryColourText;
+        }
+    }
+}
+
+
+/* meetings carousel */
+
+.jcarousel-skin-default .jcarousel-prev:before, .jcarousel-skin-default .jcarousel-next:before  {
+    padding:10px; 
+    background-color: $activeColour;
+    color: $activeColourText;
+}
+.jcarousel-skin-default .jcarousel-prev:hover:before, .jcarousel-skin-default .jcarousel-next:hover:before  {
+    padding:10px; 
+    background-color: $secondaryColour;
+    color: $secondaryColourText;
+}
+
+
+ /* meetings list page */
+
+.views-field-title  {
+    background-color: $primaryColour;
+    }
+.views-field-title a {
+    color:$primaryColourText;
+    }
+.view-id-meetings .views-field-view-node {
+    display:table;
+    }
+
