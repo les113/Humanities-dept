@@ -1893,16 +1893,20 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   color: #fff;
   background-color: #5F9BAF;
   cursor: pointer; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after,
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
   transition: 1s ease-in-out;
   opacity: 1; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
+
+.views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
   opacity: 0;
-  transition: 1s 10s; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after {
+  transition: 1s 3s; }
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
   left: -630px; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
   right: -600px; }
 
 /* slideshow 3 colour - move to oxtheme_common.css  */

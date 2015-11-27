@@ -2861,39 +2861,43 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   background-color: #5F9BAF;
   cursor: pointer;
 }
-/* line 2113, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after,
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
+
+/* line 2115, ../sass/style.scss */
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
   transition: 1s ease-in-out;
   opacity: 1;
 }
-/* line 2118, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
+
+/* line 2120, ../sass/style.scss */
+.views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
   opacity: 0;
-  transition: 1s 10s;
+  transition: 1s 3s;
 }
-/* line 2122, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after {
+
+/* line 2124, ../sass/style.scss */
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
   left: -630px;
 }
-/* line 2125, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
+
+/* line 2127, ../sass/style.scss */
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
   right: -600px;
 }
 
 /* slideshow 3 colour - move to oxtheme_common.css  */
-/* line 2138, ../sass/style.scss */
+/* line 2137, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
   background-color: #5F9BAF;
   color: #fff;
 }
 
-/* line 2143, ../sass/style.scss */
+/* line 2142, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
   color: #fff;
 }
 
-/* line 2146, ../sass/style.scss */
+/* line 2145, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text span:hover {
   color: #002147;
   text-decoration: none;
