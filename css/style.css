@@ -1878,7 +1878,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: -99; }
+  opacity: 0; }
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
   font-family: FontAwesome;
   content: "\f105";
@@ -1888,7 +1888,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   position: absolute;
   top: 0px;
   right: 0px;
-  z-index: -99; }
+  opacity: 0; }
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
   color: #fff;
   background-color: #5F9BAF;
@@ -1900,34 +1900,10 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
   opacity: 0;
   transition: 1s 10s; }
-
-@media (min-width: 1200px) {
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after {
-    left: -630px; }
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
-    right: -600px; } }
-@media (max-width: 1200px) {
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after {
-    left: -330px; }
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
-    right: -300px; } }
-@media (max-width: 1000px) {
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
-    left: -430px; }
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
-    right: -400px; } }
-@media (max-width: 800px) {
-  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
-    display: none; } }
-
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
-  transition: 1s ease-in-out;
-  opacity: 1; }
-
-.views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
-  opacity: 0;
-  transition: 1s 10s; }
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-previous:after {
+  left: -630px; }
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 :hover .views-slideshow-controls-text-next:after {
+  right: -600px; }
 
 /* slideshow 3 colour - move to oxtheme_common.css  */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
