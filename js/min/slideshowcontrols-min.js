@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".oxdrupal-slideshow-style-3").hover(function(){jQuery(".views-slideshow-controls-bottom").toggleClass("slideshowcontrols-show")})});

@@ -48,9 +48,8 @@
     </script>
    
     <!-- sidebox hide -->
-	<script src="js/sidebox.js" type="text/javascript">            
-    </script>
-        
+	<script src="js/sidebox.js" type="text/javascript"></script>
+
     <!-- owl carousel -->
     <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
     <script src="owlcarousel/owl.carousel.min.js"></script>
@@ -67,44 +66,18 @@
                     0:{
                         items:1,
                     },
-                    600:{
-                        items:3,
+                    700:{
+                        items:2,
                     },
-                    1000:{
-                        items:5,
+                    980:{
+                        items:4,
                         loop:true
                 }
             }
         });
     });
     </script>
-    <style>
-        /* owl carousel */
-        .owl-item img{
-            margin-top:10px;
-        }
-        .owl-carousel img{
-            height:180px;
-        }
-        .owl-prev:before {
-          font-family: 'fontawesome';
-            content:"\f104";
-            color:white;
-            background-color:rgba(0,33,71,1);
-            padding:10px;
-            float:left;
-            position:absolute;top:89px;left:-30px;
-        }
-        .owl-next:before {
-          font-family: 'fontawesome';
-            content:"\f105";
-            float:left;
-            color:white;
-            background-color:rgba(0,33,71,1);
-            padding:10px;
-            position:absolute;top:89px;right:-30px;
-        }        
-    </style>
+
         
     </head>
   <body>
@@ -219,7 +192,7 @@
         <div class="col-sm-12">
             <div class="region region-preface">
 
-            <!-- slideshow alt -->
+            <!-- slideshow alt 
             <section id="block-views-ox-slideshow-style-alt" class="block block-views clearfix">
                 <div class="view view-ox-slideshow view-id-ox_slideshow view-display-id-style_alt oxdrupal-slideshow oxdrupal-slideshow-style-alt view-dom-id-116f925963042833b999b4261ba2ca9b">
                     <div class="view-content">
@@ -235,7 +208,7 @@
                                             <div class="teaser-text">Dynamically productivate bricks-and-clicks interfaces through ubiquitous imperatives</div>
                                         </div>
                                         <div class="image">
-                                        <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/full_width_slideshow_slides_1140x400/public/images/page/example_image_2.jpg?itok=Ix3YZtV4" width="1140" height="400" />
+                                        <img typeof="foaf:Image" src="img/example_image_1.jpg" />
                                         </div>
                                         </a>
                                         </span>  
@@ -256,6 +229,53 @@
                 </div>
             </section> <!-- /end slideshow alt -->
 
+    <div class="marginbottom"></div>
+                
+                
+            <!-- slideshow new - style3 -->
+            <section id="block-views-ox-slideshow-style-3" class="block block-views clearfix">
+                <div class="view view-ox-slideshow view-id-ox_slideshow view-display-id-style_3 oxdrupal-slideshow oxdrupal-slideshow-style-3 view-dom-id-116f925963042833b999b4261ba2ca9b">
+                    <div class="view-content">
+                        <div class="skin-default">
+                            <div id="views_slideshow_cycle_main_ox_slideshow-style_3" class="views_slideshow_cycle_main views_slideshow_main">
+                                <div id="views_slideshow_cycle_teaser_section_ox_slideshow-style_3" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+                                    <div id="views_slideshow_cycle_div_ox_slideshow-style_3_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+                                    <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+                                    <div class="views-field views-field-nothing">        
+                                        <span class="field-content">
+                                        
+                                        <div class="slidetext">
+                                            <div class="title">Example subpage1</div>
+                                            <div class="teaser-text">Dynamically productivate bricks-and-clicks interfaces through ubiquitous imperatives</div>
+                                            <p><a class="btn btn-info btn-lg" href="/components-showcase" role="button">Learn more</a></p>
+                                        </div>
+                                        <div class="image">
+                                        <img typeof="foaf:Image" src="img/example_image_1.jpg" />
+                                        </div>
+                                        
+                                        </span>  
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="views-slideshow-controls-bottom clearfix">
+                                <div id="views_slideshow_controls_text_ox_slideshow-style_3" class="views-slideshow-controls-text views_slideshow_controls_text">
+                                <span id="views_slideshow_controls_text_previous_ox_slideshow-style_3" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous"><a href="#">Previous</a></span>
+                                <span id="views_slideshow_controls_text_pause_ox_slideshow-style_3" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play"><a href="#">Pause</a></span>
+                                <span id="views_slideshow_controls_text_next_ox_slideshow-style_3" class="views-slideshow-controls-text-next views_slideshow_controls_text_next"><a href="#">Next</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- /end slideshow alt -->
+
+    <div class="marginbottom"></div>                
+                
+                
+                
+                
             </div>
         </div>
     </div>
@@ -355,7 +375,7 @@
 <!-- 4way -->
     <div class="row">
         <div class="featured">
-            <div class="views-row views-row-1 views-row-odd views-row-first col-md-3">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="">
             <div class="teaser-field image-wrapper">
@@ -380,7 +400,7 @@
             </article>
             </div>       
         
-            <div class="views-row views-row-1 views-row-odd views-row-first col-md-3">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="">
             <div class="teaser-field image-wrapper">
@@ -405,7 +425,7 @@
             </article>
             </div>  
             
-            <div class="views-row views-row-1 views-row-odd views-row-first col-md-3">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="">
             <div class="teaser-field image-wrapper">
@@ -429,7 +449,7 @@
             <div class="clearfix"></div>
             </article>
             </div>  
-            <div class="views-row views-row-1 views-row-odd views-row-first col-md-3">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="">
             <div class="teaser-field image-wrapper">

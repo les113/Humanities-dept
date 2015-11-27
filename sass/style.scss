@@ -1299,8 +1299,6 @@ body.front div.view div.more-link {
 
 /* slideshow alt controls */
 
-
-
 .oxdrupal-slideshow.oxdrupal-slideshow-style-alt {
     .views-slideshow-controls-bottom {
         position: absolute;
@@ -1330,12 +1328,8 @@ body.front div.view div.more-link {
     }
 }
 
-.oxdrupal-slideshow.oxdrupal-slideshow-style-alt .views-slideshow-controls-bottom {
-    position: absolute;
-}
 @media (max-width:760px) {
     .oxdrupal-slideshow.oxdrupal-slideshow-style-alt .views-slideshow-controls-bottom {
-        position: absolute;
         right: 4px;
         height: 40px;
         top: 20px;
@@ -1646,7 +1640,7 @@ body.not-logged-in.page-user #maincontent > section > ul.nav-tabs > li.active > 
 }
 
 
-/* meetings sdiebar slideshow */
+/* meetings sidebar slideshow */
 
 .pane-meetings-meeting-carousel,
 .pane-meetings-panel-pane-1 {
@@ -1969,6 +1963,230 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .carousel article.node-teaser > .text-wrapper {
     padding:10px 15px;
 }
+
+        /* owl carousel */
+        .owl-item img{
+            margin-top:10px;
+        }
+        .owl-carousel img{
+            height:180px;
+        }
+        .owl-prev:before {
+          font-family: 'fontawesome';
+            content:"\f104";
+            color:$primaryColourText;
+            background-color:$primaryColour;
+            padding:10px;
+            float:left;
+            position:absolute;top:89px;left:-30px;
+        }
+        .owl-next:before {
+          font-family: 'fontawesome';
+            content:"\f105";
+            float:left;
+            color:$primaryColourText;
+            background-color:$primaryColour;
+            padding:10px;
+            position:absolute;top:89px;right:-30px;
+        }   
+        .owl-prev:hover:before, .owl-next:hover:before {
+            color:$secondaryColourText;
+            background-color:$secondaryColour;
+        }
+
+
+
+// slideshow 3
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
+        width:100%;
+        height:400px;
+        margin-top:30px; 
+        font-family: $headingFontFamily;
+        background:none;  // used when no image slide
+    .slidetext {
+        padding:20px;
+        height:400px;
+        width:380px
+    }
+    .title{
+        font-size: 2.2em;
+        margin-top:70px;
+    }
+    .teaser-text{
+        font-size: 1.4em;
+    }
+    .image {
+        width:auto;
+        float: none;
+    }
+    .image img {
+        width:100%;
+        height:400px;
+        border:10px solid white;
+        position:absolute;
+        right:0;
+        top:0;
+        z-index:-1;
+        border:none;
+    }
+    .btn {
+        margin-top:20px;
+        text-align: left;
+        color:$primaryColourText;
+        background-color:$primaryColour;
+    }
+    .btn:after {        
+        font-family: 'fontawesome';
+        content:"\f105";
+        padding-left:10px;
+    }
+    .views-row a {
+        display:inline-block;
+        width:auto;
+    }
+    
+    @media (max-width:760px) {
+        .slidetext {
+            width:100%;
+        }
+    }    
+    
+}
+
+
+
+
+/* slideshow3 controls */
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
+    .views-slideshow-controls-bottom {
+        position: absolute;
+        top:50%;
+        bottom:50%;
+        left:50%;
+        right:50%;
+    }
+    .slideshowcontrols-show {
+
+    }
+    .views-slideshow-controls-text a {
+        display:none
+    }
+    .views-slideshow-controls-text {
+        text-decoration: none;
+        font-size:2.0em;
+    }
+    .views-slideshow-controls-text-pause {
+        display:none;
+    }
+    .views-slideshow-controls-text-previous:after {
+        font-family:FontAwesome;
+        content: "\f104";
+        color:$primaryColourText;
+        background-color:$primaryColour;
+        padding:5px 15px;
+        position: absolute;
+        top:0px;
+        left:0px;
+        z-index:-99;    
+    }
+    .views-slideshow-controls-text-next:after {
+        font-family:FontAwesome;
+        content: "\f105";
+        color:$primaryColourText;
+        background-color:$primaryColour;
+        padding:5px 15px;
+        position: absolute;
+        top:0px;
+        right:0px;
+        z-index:-99;
+    }
+    .views-slideshow-controls-text-previous:hover:after, .views-slideshow-controls-text-next:hover:after {
+        color:$secondaryColourText;
+        background-color:$secondaryColour;
+        cursor:pointer;
+    }
+    
+// slide in slideshow controls on hover
+
+    :hover .views-slideshow-controls-text-previous:after,
+    :hover .views-slideshow-controls-text-next:after {
+        transition: 1s ease-in-out;
+        opacity:1;
+    }
+    .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
+        opacity:0;
+        transition: 1s 10s;  // stay visible for 10sec      
+    }
+
+    
+}
+
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
+    @media (min-width:1200px) {
+    :hover .views-slideshow-controls-text-previous:after {
+        left:-630px;
+    }
+    :hover .views-slideshow-controls-text-next:after {
+        right:-600px;
+    }
+    }
+    @media (max-width:1200px) {
+        :hover .views-slideshow-controls-text-previous:after {
+            left:-330px;
+        }
+        :hover .views-slideshow-controls-text-next:after {
+            right:-300px;
+        }
+    }
+    @media (max-width:1000px) {
+        .views-slideshow-controls-text-previous:after {
+            left:-430px;
+        }
+        .views-slideshow-controls-text-next:after {
+            right:-400px;
+        }
+    }
+    @media (max-width:800px) {
+        .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
+            display:none;
+        }
+    }
+}
+
+
+// sidein slideshow controls on hover
+
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+        transition: 1s ease-in-out;
+        opacity:1;
+    }
+    .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
+        opacity:0;
+        transition: 1s 10s;  // stay visible for 10sec      
+    }
+
+
+
+
+
+/* slideshow 3 colour - move to oxtheme_common.css  */
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
+    background-color:$secondaryColour;
+    color:$secondaryColourText;
+}
+
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
+        color:$secondaryColourText;
+    }
+.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text span:hover {
+        color:$primaryColour;
+        text-decoration: none;
+    }
 
 
 
