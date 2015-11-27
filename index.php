@@ -212,15 +212,58 @@
   <!-- main container -->
   <div id="main-container" class="container">
 
+
     <!-- REGION PREFACE -->
     <div id="preface" >
         <div class="row">
-            <div class="col-sm-12">
-                preface region
+        <div class="col-sm-12">
+            <div class="region region-preface">
+
+            <!-- slideshow alt -->
+            <section id="block-views-ox-slideshow-style-alt" class="block block-views clearfix">
+                <div class="view view-ox-slideshow view-id-ox_slideshow view-display-id-style_alt oxdrupal-slideshow oxdrupal-slideshow-style-alt view-dom-id-116f925963042833b999b4261ba2ca9b">
+                    <div class="view-content">
+                        <div class="skin-default">
+                            <div id="views_slideshow_cycle_main_ox_slideshow-style_alt" class="views_slideshow_cycle_main views_slideshow_main">
+                                <div id="views_slideshow_cycle_teaser_section_ox_slideshow-style_alt" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+                                    <div id="views_slideshow_cycle_div_ox_slideshow-style_alt_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+                                    <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+                                    <div class="views-field views-field-nothing">        
+                                        <span class="field-content"><a href="/example-subpage1">
+                                        <div class="slidetext">
+                                            <div class="title">Example subpage1</div>
+                                            <div class="teaser-text">Dynamically productivate bricks-and-clicks interfaces through ubiquitous imperatives</div>
+                                        </div>
+                                        <div class="image">
+                                        <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/full_width_slideshow_slides_1140x400/public/images/page/example_image_2.jpg?itok=Ix3YZtV4" width="1140" height="400" />
+                                        </div>
+                                        </a>
+                                        </span>  
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="views-slideshow-controls-bottom clearfix">
+                                <div id="views_slideshow_controls_text_ox_slideshow-style_alt" class="views-slideshow-controls-text views_slideshow_controls_text">
+                                <span id="views_slideshow_controls_text_previous_ox_slideshow-style_alt" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous"><a href="#">Previous</a></span>
+                                <span id="views_slideshow_controls_text_pause_ox_slideshow-style_alt" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play"><a href="#">Pause</a></span>
+                                <span id="views_slideshow_controls_text_next_ox_slideshow-style_alt" class="views-slideshow-controls-text-next views_slideshow_controls_text_next"><a href="#">Next</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- /end slideshow alt -->
+
             </div>
         </div>
     </div>
+    </div>
     <!-- END REGION PREFACE -->
+
+      
+      
 
     <!-- REGION CONTENT -->    
     <div id="maincontent">
