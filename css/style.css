@@ -830,7 +830,6 @@ article.node-teaser .text-intro {
 
 article.node-teaser .text-intro:hover, article.node-teaser .text-intro:focus {
   background-color: #f0f0f0;
-  position: relative;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
@@ -1959,6 +1958,53 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text span:hover {
   color: #002147;
+  text-decoration: none; }
+
+.latest-news-alt .node-oxdrupal-news-alt {
+  position: relative; }
+.latest-news-alt .teaser-field .image {
+  width: 50%; }
+.latest-news-alt .node-teaser .image-wrapper .image img {
+  margin-bottom: 20px; }
+.latest-news-alt .node-teaser {
+  background: none; }
+.latest-news-alt .text-wrapper.text-intro {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: #f6f6f6;
+  width: 66%;
+  padding: 8px; }
+.latest-news-alt .node-teaser .text-wrapper .date {
+  padding: 0 0 10px 0; }
+.latest-news-alt .node-teaser .text-wrapper .title {
+  display: none; }
+.latest-news-alt .node-teaser .text-wrapper .teaser-text {
+  padding: 0; }
+
+.latest-events-alt .node-oxdrupal-events-alt {
+  position: relative; }
+.latest-events-alt .teaser-field .image {
+  width: 100px;
+  float: left; }
+.latest-events-alt .text-wrapper.text-intro {
+  width: 200px;
+  float: left; }
+.latest-events-alt .node-teaser .text-wrapper .date {
+  padding: 0 0 10px 0; }
+.latest-events-alt .node-teaser .text-wrapper .title {
+  padding: 0 0 10px 0; }
+.latest-events-alt .node-teaser .text-wrapper .teaser-text {
+  padding: 0; }
+.latest-events-alt .node-teaser .text-intro {
+  margin-top: 0; }
+.latest-events-alt .node-teaser {
+  background: none; }
+.latest-events-alt .node-teaser .text-intro:hover {
+  background-color: #fff; }
+.latest-events-alt article {
+  margin-bottom: 20px; }
+.latest-events-alt article a {
   text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

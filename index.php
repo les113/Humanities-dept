@@ -638,6 +638,194 @@
             </div>
         </div>
     </div>
+        
+        
+    <!-- news region -->
+    <div class="row">
+        <div class="col-sm-12">
+            <!-- latest news -->
+            <div class="panel-separator"></div>
+            <div class="panel-pane pane-views-panes pane-news-panel-pane-latest-news-alt clearfix"  >
+                <div class="pane-content">
+                    <div class="view view-news view-id-news view-display-id-panel_pane_latest_news teasers view-dom-id-b85dca3a32f65d076b78c1a372a09e62">
+                        <div class="view-content row">
+                            <div class="views-row views-row-1 views-row-odd views-row-first col-md-4 latest-news-alt">
+                                <h2 class="pane-title">Latest News</h2>
+                                
+                                <article about="/news/here-news" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-news-alt node-teaser node--oxdrupal_news--teaser">
+                                <a href="/news/here-news">
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+
+                                <article about="/news/here-news" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-news-alt node-teaser node--oxdrupal_news--teaser">
+                                <a href="/news/here-news">
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+
+                                <article about="/news/here-news" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-news-alt node-teaser node--oxdrupal_news--teaser">
+                                <a href="/news/here-news">
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+                                
+                            </div><!-- end col-4 -->
+            
+            
+            <!-- latest events -->
+
+                            <div class="views-row views-row-1 views-row-odd views-row-first col-md-4 latest-events-alt">
+                                <h2 class="pane-title">Latest Events</h2>
+                                
+                                <article about="/news/here-events" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-events-alt node-teaser node--oxdrupal_events--teaser">
+                                <a href="/news/here-events">
+                                <div class="teaser-field text-wrapper">
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                </div>
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+
+                                <article about="/news/here-events" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-events-alt node-teaser node--oxdrupal_events--teaser">
+                                <a href="/news/here-events">
+                                <div class="teaser-field text-wrapper">
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                </div>
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+
+                                <article about="/news/here-events" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-events-alt node-teaser node--oxdrupal_events--teaser">
+                                <a href="/news/here-events">
+                                <div class="teaser-field text-wrapper">
+                                    <div class="teaser-field title">
+                                    <h3>Here is the news</h3>
+                                    </div>
+                                    <div class="teaser-field date">
+                                    <!-- <span class="field-label">Publication date:&nbsp;</span> -->
+                                    <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-04-17T01:00:00+01:00">Fri April 17th, 2015</span>
+                                    </div>
+                                </div>
+                                <div class="teaser-field image-wrapper">
+                                    <div class="teaser-field image">
+                                    <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                                    </div>
+                                </div>
+                                <div class="teaser-field text-wrapper text-intro">
+                                    <div class="teaser-field teaser-text">
+                                    Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="clearfix"></div>
+                                </article>
+                                
+                            </div><!-- end col-4 -->
+                        </div><!-- end row -->
+                    </div>
+                </div>
+            </div>            
+            
+            
+            
+            
+            
+            
+        </div><!-- end col-12 -->
+    </div><!-- end row -->
+        
+    <!-- content region -->
+    <div class="row">
+        <div class="col-sm-12">
+            
+        </div>
+    </div>
+        
+        
 
     <!-- REGION POSTSCRIPT -->
     <div id="postscript">
