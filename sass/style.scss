@@ -2059,6 +2059,8 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 
 /* slideshow3 controls */
 
+@media (min-width: 760px) {
+    
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
     .views-slideshow-controls-bottom {
         position: absolute;
@@ -2088,7 +2090,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         padding:5px 15px;
         position: absolute;
         top:0px;
-        left:0px;
+        left:-800px;
         opacity:0;   
     }
     .views-slideshow-controls-text-next:after {
@@ -2099,7 +2101,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         padding:5px 15px;
         position: absolute;
         top:0px;
-        right:0px;
+        right:-800px;
         opacity:0;
     }
     .views-slideshow-controls-text-previous:hover:after, .views-slideshow-controls-text-next:hover:after {
@@ -2121,15 +2123,71 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         opacity:0;
         transition: 1s 3s;  // stay visible for x sec      
     }
+} //end of >760px 
+
+
+@media (min-width: 1200px) {
     .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
         left:-630px;
     }
     .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
         right:-600px;
     }  
+}
+
+@media (min-width: 980px) and (max-width: 1200px)  {
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+        left:-530px;
+    }
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+        right:-500px;
+    }  
+}
+
+@media (min-width: 760px) and (max-width: 980px)  {
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+        left:-430px;
+    }
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+        right:-400px;
+    }  
+}
+@media (max-width:760px)  {
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+        left:-430px;
+    }
+    .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+        right:-400px;
+    }  
+}
 
 
+// slideshow 3 controls <760px
 
+@media (max-width:760px)  {
+    .views-slideshow-controls-text {
+        margin-left:10px;
+    }
+    .views-slideshow-controls-text-previous:after {
+        font-family:FontAwesome;
+        content: "\f053";
+        margin-right:10px;
+    }
+    .views-slideshow-controls-text-next:after {
+        font-family:FontAwesome;
+        content: "\f054";
+    }
+    .views-slideshow-controls-text-pause:after {
+        font-family:FontAwesome;
+        content: "\f04c";
+        margin-right:10px;
+    }
+    .views-slideshow-controls-text-previous,
+    .views-slideshow-controls-text-next, 
+    .views-slideshow-controls-text-pause {
+        a {display:none;}
+    }
+}
 
 
 /* slideshow 3 colour - move to oxtheme_common.css  */

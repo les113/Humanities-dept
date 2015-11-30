@@ -2810,94 +2810,162 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 }
 
 /* slideshow3 controls */
-/* line 2063, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-bottom {
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 50%;
-  right: 50%;
-}
-/* line 2073, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text a {
-  display: none;
-}
-/* line 2076, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
-  text-decoration: none;
-  font-size: 2.0em;
-}
-/* line 2080, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-pause {
-  display: none;
-}
-/* line 2083, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
-  font-family: FontAwesome;
-  content: "\f104";
-  color: #fff;
-  background-color: #002147;
-  padding: 5px 15px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 0;
-}
-/* line 2094, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
-  font-family: FontAwesome;
-  content: "\f105";
-  color: #fff;
-  background-color: #002147;
-  padding: 5px 15px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  opacity: 0;
-}
-/* line 2105, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
-  color: #fff;
-  background-color: #5F9BAF;
-  cursor: pointer;
-}
+@media (min-width: 760px) {
+  /* line 2065, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-bottom {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+  }
+  /* line 2075, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text a {
+    display: none;
+  }
+  /* line 2078, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
+    text-decoration: none;
+    font-size: 2.0em;
+  }
+  /* line 2082, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-pause {
+    display: none;
+  }
+  /* line 2085, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
+    font-family: FontAwesome;
+    content: "\f104";
+    color: #fff;
+    background-color: #002147;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0px;
+    left: -800px;
+    opacity: 0;
+  }
+  /* line 2096, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #fff;
+    background-color: #002147;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0px;
+    right: -800px;
+    opacity: 0;
+  }
+  /* line 2107, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
+    color: #fff;
+    background-color: #5F9BAF;
+    cursor: pointer;
+  }
 
-/* line 2115, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
-  transition: 1s ease-in-out;
-  opacity: 1;
-}
+  /* line 2117, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    transition: 1s ease-in-out;
+    opacity: 1;
+  }
 
-/* line 2120, ../sass/style.scss */
-.views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
-  opacity: 0;
-  transition: 1s 3s;
+  /* line 2122, ../sass/style.scss */
+  .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
+    opacity: 0;
+    transition: 1s 3s;
+  }
 }
+@media (min-width: 1200px) {
+  /* line 2130, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -630px;
+  }
 
-/* line 2124, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
-  left: -630px;
+  /* line 2133, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -600px;
+  }
 }
+@media (min-width: 980px) and (max-width: 1200px) {
+  /* line 2139, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -530px;
+  }
 
-/* line 2127, ../sass/style.scss */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
-  right: -600px;
+  /* line 2142, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -500px;
+  }
 }
+@media (min-width: 760px) and (max-width: 980px) {
+  /* line 2148, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -430px;
+  }
 
+  /* line 2151, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -400px;
+  }
+}
+@media (max-width: 760px) {
+  /* line 2156, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -430px;
+  }
+
+  /* line 2159, ../sass/style.scss */
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -400px;
+  }
+}
+@media (max-width: 760px) {
+  /* line 2168, ../sass/style.scss */
+  .views-slideshow-controls-text {
+    margin-left: 10px;
+  }
+
+  /* line 2171, ../sass/style.scss */
+  .views-slideshow-controls-text-previous:after {
+    font-family: FontAwesome;
+    content: "\f053";
+    margin-right: 10px;
+  }
+
+  /* line 2176, ../sass/style.scss */
+  .views-slideshow-controls-text-next:after {
+    font-family: FontAwesome;
+    content: "\f054";
+  }
+
+  /* line 2180, ../sass/style.scss */
+  .views-slideshow-controls-text-pause:after {
+    font-family: FontAwesome;
+    content: "\f04c";
+    margin-right: 10px;
+  }
+
+  /* line 2188, ../sass/style.scss */
+  .views-slideshow-controls-text-previous a,
+  .views-slideshow-controls-text-next a,
+  .views-slideshow-controls-text-pause a {
+    display: none;
+  }
+}
 /* slideshow 3 colour - move to oxtheme_common.css  */
-/* line 2137, ../sass/style.scss */
+/* line 2195, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
   background-color: #5F9BAF;
   color: #fff;
 }
 
-/* line 2142, ../sass/style.scss */
+/* line 2200, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
   color: #fff;
 }
 
-/* line 2145, ../sass/style.scss */
+/* line 2203, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text span:hover {
   color: #002147;
   text-decoration: none;

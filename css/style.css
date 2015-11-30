@@ -1856,59 +1856,99 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
       width: 100%; } }
 
 /* slideshow3 controls */
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-bottom {
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 50%;
-  right: 50%; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text a {
-  display: none; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
-  text-decoration: none;
-  font-size: 2.0em; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-pause {
-  display: none; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
-  font-family: FontAwesome;
-  content: "\f104";
-  color: #fff;
-  background-color: #002147;
-  padding: 5px 15px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 0; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
-  font-family: FontAwesome;
-  content: "\f105";
-  color: #fff;
-  background-color: #002147;
-  padding: 5px 15px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  opacity: 0; }
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
-  color: #fff;
-  background-color: #5F9BAF;
-  cursor: pointer; }
+@media (min-width: 760px) {
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-bottom {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text a {
+    display: none; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
+    text-decoration: none;
+    font-size: 2.0em; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-pause {
+    display: none; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
+    font-family: FontAwesome;
+    content: "\f104";
+    color: #fff;
+    background-color: #002147;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0px;
+    left: -800px;
+    opacity: 0; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #fff;
+    background-color: #002147;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0px;
+    right: -800px;
+    opacity: 0; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
+    color: #fff;
+    background-color: #5F9BAF;
+    cursor: pointer; }
 
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
-  transition: 1s ease-in-out;
-  opacity: 1; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    transition: 1s ease-in-out;
+    opacity: 1; }
 
-.views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
-  opacity: 0;
-  transition: 1s 3s; }
+  .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
+    opacity: 0;
+    transition: 1s 3s; } }
+@media (min-width: 1200px) {
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -630px; }
 
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
-  left: -630px; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -600px; } }
+@media (min-width: 980px) and (max-width: 1200px) {
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -530px; }
 
-.oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
-  right: -600px; }
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -500px; } }
+@media (min-width: 760px) and (max-width: 980px) {
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -430px; }
 
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -400px; } }
+@media (max-width: 760px) {
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
+    left: -430px; }
+
+  .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
+    right: -400px; } }
+@media (max-width: 760px) {
+  .views-slideshow-controls-text {
+    margin-left: 10px; }
+
+  .views-slideshow-controls-text-previous:after {
+    font-family: FontAwesome;
+    content: "\f053";
+    margin-right: 10px; }
+
+  .views-slideshow-controls-text-next:after {
+    font-family: FontAwesome;
+    content: "\f054"; }
+
+  .views-slideshow-controls-text-pause:after {
+    font-family: FontAwesome;
+    content: "\f04c";
+    margin-right: 10px; }
+
+  .views-slideshow-controls-text-previous a,
+  .views-slideshow-controls-text-next a,
+  .views-slideshow-controls-text-pause a {
+    display: none; } }
 /* slideshow 3 colour - move to oxtheme_common.css  */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
   background-color: #5F9BAF;
