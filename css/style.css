@@ -2041,4 +2041,30 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   margin-top: -30px;
   margin-bottom: -20px; }
 
+.relatedlinks .pane-title {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block; }
+.relatedlinks .relatedLink a {
+  text-decoration: none;
+  color: #259ca8; }
+.relatedlinks .relatedTeaser {
+  margin-bottom: 10px; }
+.relatedlinks article {
+  background-color: #f6f6f6;
+  padding: 30px 20px 20px 20px;
+  margin-top: -30px;
+  margin-bottom: -20px; }
+
+.googlemap .pane-title {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block; }
+.googlemap .map {
+  margin-bottom: 20px; }
+
 /*# sourceMappingURL=style.css.map */

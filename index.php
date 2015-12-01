@@ -802,7 +802,8 @@
 
     <!-- did you know? -->
 
-                    <div class="didyouknow col-sm-6  col-md-4">
+                    <div class="col-sm-6  col-md-4">
+                        <div class="didyouknow">
                         <h2 class="pane-title">Did you know?</h2>
                         <div class="articleBg">
                             <article about="" class="">
@@ -821,6 +822,7 @@
                             </article>
                         <p><a class="btn btn-info btn-lg" href="" role="button">More facts</a></p>
                         </div>
+                        </div>
                     </div>
                             
                     </div><!-- end col-4 -->
@@ -830,7 +832,68 @@
         
         
     <div class="marginbottom"></div>     
-        
+
+      
+<!-- region -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+                <!-- Related links -->
+                <div class="col-sm-6  col-md-4">
+                    <div class="relatedlinks">
+                    <h2 class="pane-title">Related Links</h2>
+                    <div class="articleBg">
+                        <article about="" class="">
+                            <div class="">
+                                <div class="relatedLink"><a href="">A link to something</a></div>
+                                <div class="relatedTeaser">Some lorum ipsum text</div>
+                            </div>
+                            <div class="">
+                                <div class="relatedLink"><a href="">A link to something</a></div>
+                                <div class="relatedTeaser">Some lorum ipsum text</div>
+                            </div>
+                            <div class="">
+                                <div class="relatedLink"><a href="">A link to something</a></div>
+                                <div class="relatedTeaser">Some lorum ipsum text</div>
+                            </div>
+                        </article>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <!-- map -->
+                <div class="col-sm-6  col-md-4">
+                    <div class="googlemap">
+                    <h2 class="pane-title">Our Offices</h2>
+                    <div class="articleBg">
+                        <article about="" class="">
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1525.4207332974017!2d-1.2659413001049618!3d51.76084058094165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a7ad20cb85%3A0xf3e0c211d4732615!2sFaculty+of+Theology+and+Religion!5e0!3m2!1sen!2suk!4v1448987813855" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <div class="address">
+                                <p>Faculty of Theology and Religion,</br>Gibson Building,</br> 
+                                Radcliffe Observatory Quarter,</br>Woodstock Road,</br>
+                                Oxford</br>
+                                OX2 6GG</p>
+                            </div>
+                        </article>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+        </div><!-- end col-12 -->
+    </div><!-- end row -->
+      
+      
+      
+      
+     <div class="marginbottom"></div>             
+            
     <!-- content region -->
     <div class="row">
         <div class="col-sm-12">

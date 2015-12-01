@@ -3100,3 +3100,41 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   margin-top: -30px;
   margin-bottom: -20px;
 }
+
+/* line 2282, ../sass/style.scss */
+.relatedlinks .pane-title {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block;
+}
+/* line 2289, ../sass/style.scss */
+.relatedlinks .relatedLink a {
+  text-decoration: none;
+  color: #259ca8;
+}
+/* line 2293, ../sass/style.scss */
+.relatedlinks .relatedTeaser {
+  margin-bottom: 10px;
+}
+/* line 2296, ../sass/style.scss */
+.relatedlinks article {
+  background-color: #f6f6f6;
+  padding: 30px 20px 20px 20px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+/* line 2307, ../sass/style.scss */
+.googlemap .pane-title {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  display: inline-block;
+}
+/* line 2314, ../sass/style.scss */
+.googlemap .map {
+  margin-bottom: 20px;
+}

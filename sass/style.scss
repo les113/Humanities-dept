@@ -2272,9 +2272,45 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         background-color: #f6f6f6;
         padding:30px 0 20px 0;
         margin-top:-30px;
-        margin-bottom:-20px;
-        
+        margin-bottom:-20px;  
     }
+}
 
+// related links
 
+.relatedlinks {
+    .pane-title {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+        padding:15px;
+        font-size: 20px;
+        display:inline-block;
+    }
+    .relatedLink a {
+        text-decoration: none;
+        color:$secondaryColour;
+    }
+    .relatedTeaser {
+        margin-bottom:10px;
+    }
+    article {
+        background-color: #f6f6f6;
+        padding:30px 20px 20px 20px;
+        margin-top:-30px;
+        margin-bottom:-20px;  
+    }
+}
+
+// related links
+
+.googlemap {
+    .pane-title {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+        padding:15px;
+        font-size: 20px;
+        display:inline-block;
+    }
+    .map {margin-bottom:20px;}
+    .address {}
 }
