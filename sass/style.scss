@@ -2233,8 +2233,48 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 
 
 // misc
-    .btn-info:after {        
-        font-family: 'fontawesome';
-        content:"\f105";
+.btn-info:after {        
+    font-family: 'fontawesome';
+    content:"\f105";
+    padding-left:10px;
+}
+
+// did you know
+
+.didyouknow {
+    .pane-title {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+        padding:15px 5px;
+        font-size: 20px;
+        display:inline-block;
+    }
+    .dykTeaser {
+        position:relative;
+        margin-bottom: 20px;
+    }
+    .dykStat {
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+        padding:10px 5px 10px 15px;
+        min-width:90px;
+        font-size: 24px;
+        display:inline-block;
+        font-family: $headingFontFamily;
+    }
+    .dyKFact {
+        display: inline-block;
+        position:absolute;
+        top:10px;
         padding-left:10px;
     }
+    article {
+        background-color: #f6f6f6;
+        padding:30px 0 20px 0;
+        margin-top:-30px;
+        margin-bottom:-20px;
+        
+    }
+
+
+}

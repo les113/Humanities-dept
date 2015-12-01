@@ -797,8 +797,32 @@
                         </article>
                         
                         <p><a class="btn btn-info btn-lg" href="/components-showcase" role="button">All events</a></p>
+                        
+                    </div>
 
+    <!-- did you know? -->
 
+                    <div class="didyouknow col-sm-6  col-md-4">
+                        <h2 class="pane-title">Did you know?</h2>
+                        <div class="articleBg">
+                            <article about="" class="">
+                                <div class="dykTeaser">
+                                    <div class="dykStat">99%</div>
+                                    <div class="dyKFact">Of shit happens when you don't expect it.</div>
+                                </div>
+                                <div class="dykTeaser">
+                                    <div class="dykStat">9,758</div>
+                                    <div class="dyKFact">Is a number I thought worked well here.</div>
+                                </div>
+                                <div class="dykTeaser">
+                                    <div class="dykStat">All of</div>
+                                    <div class="dyKFact">something does something.</div>
+                                </div>
+                            </article>
+                        <p><a class="btn btn-info btn-lg" href="" role="button">More facts</a></p>
+                        </div>
+                    </div>
+                            
                     </div><!-- end col-4 -->
                 </div><!-- end row -->
         </div><!-- end col-12 -->

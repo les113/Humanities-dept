@@ -2013,4 +2013,32 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   content: "\f105";
   padding-left: 10px; }
 
+.didyouknow .pane-title {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 15px 5px;
+  font-size: 20px;
+  display: inline-block; }
+.didyouknow .dykTeaser {
+  position: relative;
+  margin-bottom: 20px; }
+.didyouknow .dykStat {
+  background-color: #259ca8;
+  color: #fff;
+  padding: 10px 5px 10px 15px;
+  min-width: 90px;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Lora", serif; }
+.didyouknow .dyKFact {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  padding-left: 10px; }
+.didyouknow article {
+  background-color: #f6f6f6;
+  padding: 30px 0 20px 0;
+  margin-top: -30px;
+  margin-bottom: -20px; }
+
 /*# sourceMappingURL=style.css.map */
