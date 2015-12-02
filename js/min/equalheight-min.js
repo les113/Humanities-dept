@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e){var t=0;e.each(function(){var e=jQuery(this).height();e>t&&(t=e)}),e.height(t)}jQuery(document).ready(function($){e($(".people .teaser-text")),e($(".featured .teaser-text"))})}();

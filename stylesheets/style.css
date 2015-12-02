@@ -3070,13 +3070,14 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   padding: 15px 5px;
   font-size: 20px;
   display: inline-block;
+  margin-left: 10px;
 }
-/* line 2252, ../sass/style.scss */
+/* line 2253, ../sass/style.scss */
 .didyouknow .dykTeaser {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 2256, ../sass/style.scss */
+/* line 2257, ../sass/style.scss */
 .didyouknow .dykStat {
   background-color: #259ca8;
   color: #fff;
@@ -3085,56 +3086,158 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-size: 24px;
   display: inline-block;
   font-family: "Lora", serif;
+  margin-left: 10px;
 }
-/* line 2265, ../sass/style.scss */
+/* line 2267, ../sass/style.scss */
 .didyouknow .dyKFact {
   display: inline-block;
   position: absolute;
   top: 10px;
   padding-left: 10px;
 }
-/* line 2271, ../sass/style.scss */
+/* line 2273, ../sass/style.scss */
 .didyouknow article {
   background-color: #f6f6f6;
   padding: 30px 0 20px 0;
   margin-top: -30px;
   margin-bottom: -20px;
 }
+/* line 2279, ../sass/style.scss */
+.didyouknow .btn {
+  margin-left: 10px;
+}
 
-/* line 2282, ../sass/style.scss */
+/* line 2287, ../sass/style.scss */
 .relatedlinks .pane-title {
   background-color: #259ca8;
   color: #fff;
   padding: 15px;
   font-size: 20px;
   display: inline-block;
+  margin-left: 10px;
 }
-/* line 2289, ../sass/style.scss */
+/* line 2295, ../sass/style.scss */
 .relatedlinks .relatedLink a {
   text-decoration: none;
   color: #259ca8;
 }
-/* line 2293, ../sass/style.scss */
+/* line 2299, ../sass/style.scss */
 .relatedlinks .relatedTeaser {
   margin-bottom: 10px;
 }
-/* line 2296, ../sass/style.scss */
+/* line 2302, ../sass/style.scss */
 .relatedlinks article {
   background-color: #f6f6f6;
   padding: 30px 20px 20px 20px;
   margin-top: -30px;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
 }
 
-/* line 2307, ../sass/style.scss */
+/* line 2313, ../sass/style.scss */
 .googlemap .pane-title {
   background-color: #259ca8;
   color: #fff;
   padding: 15px;
   font-size: 20px;
   display: inline-block;
+  position: relative;
+  z-index: 99;
+  margin-left: 10px;
 }
-/* line 2314, ../sass/style.scss */
+/* line 2323, ../sass/style.scss */
 .googlemap .map {
   margin-bottom: 20px;
+}
+/* line 2328, ../sass/style.scss */
+.googlemap article {
+  margin-top: -30px;
+}
+
+/* line 2337, ../sass/style.scss */
+#accordion {
+  text-align: left;
+}
+
+/* line 2340, ../sass/style.scss */
+.panel-default {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 2345, ../sass/style.scss */
+.panel-default > .panel-heading {
+  border: none;
+  border-radius: 0;
+}
+
+/* line 2349, ../sass/style.scss */
+.panel-default > .panel-heading a {
+  color: white;
+}
+
+/* line 2352, ../sass/style.scss */
+.panel-default:nth-child(odd) .panel-heading {
+  background-color: #259ca8;
+}
+
+/* line 2355, ../sass/style.scss */
+.panel-default:nth-child(even) .panel-heading {
+  background-color: #2fc2d1;
+}
+
+/* line 2358, ../sass/style.scss */
+.panel-default > .panel-heading h4 {
+  font-family: "Lora", serif;
+  font-size: 22px;
+}
+
+/* line 2362, ../sass/style.scss */
+.panel-default > .panel-heading a {
+  text-decoration: none;
+}
+
+/* line 2365, ../sass/style.scss */
+.panel-default .panel-title > a {
+  display: block;
+}
+
+/* line 2368, ../sass/style.scss */
+.panel-default .panel-title a:after {
+  content: "\f068";
+  font-family: fontawesome;
+  position: absolute;
+  right: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* line 2376, ../sass/style.scss */
+.panel-default .panel-title a.collapsed:after {
+  content: "\f067";
+  font-family: fontawesome;
+  position: absolute;
+  right: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* line 2385, ../sass/style.scss */
+.showmore a:before {
+  content: "\f067";
+  font-family: fontawesome;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+/* line 2391, ../sass/style.scss */
+.showmore {
+  display: block;
+  margin: 20px 0;
+  text-align: right;
+}
+
+/* line 2396, ../sass/style.scss */
+.showmore a {
+  text-decoration: none;
 }

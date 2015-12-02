@@ -17,7 +17,8 @@
     }
 
    jQuery(document).ready(function($) {
-     equalHeight($(".iwanttoWrap"));
+     equalHeight($(".people .teaser-text"));
+     equalHeight($(".featured .teaser-text"));
    });
 })();
 

@@ -289,9 +289,9 @@
     <div id="maincontent">
         
         <!-- people -->
-        <div class="row">
+        <div class="row people">
 
-            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-4">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="/people/john-locke" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="/people/john-locke">
             <div class="teaser-field image-wrapper">
@@ -317,7 +317,7 @@
             </article>
             </div>
 
-            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-4">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="/people/john-locke" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="/people/john-locke">
             <div class="teaser-field image-wrapper">
@@ -343,7 +343,33 @@
             </article>
             </div>
 
-            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-4">
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
+            <article about="/people/john-locke" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
+            <a href="/people/john-locke">
+            <div class="teaser-field image-wrapper">
+            <div class="teaser-field image">
+            <img typeof="foaf:Image" src="img/john-locke.png">          
+            </div>
+            </div>
+            </a>
+            <div class="teaser-field text-wrapper text-intro">
+            <a href="/people/john-locke">
+            <div class="teaser-field title">
+            <h3>John Locke</h3>
+            </div>
+            <div class="teaser-field job-title">Philosopher</div>
+            </a>
+            </div>
+            <div class="teaser-field text-wrapper">
+            <div class="teaser-field teaser-text">
+                John Locke FRS was an English philosopher and physician.
+            </div>
+            </div>
+            <div class="clearfix"></div>
+            </article>
+            </div>
+            
+            <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="/people/john-locke" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="/people/john-locke">
             <div class="teaser-field image-wrapper">
@@ -368,6 +394,7 @@
             <div class="clearfix"></div>
             </article>
             </div>
+            
         </div>
         
         <div class="marginbottom"></div>
@@ -449,6 +476,7 @@
             <div class="clearfix"></div>
             </article>
             </div>  
+            
             <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-3">
             <article about="" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-person node-teaser node--oxdrupal_person--teaser" >
             <a href="">
@@ -838,6 +866,56 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="row">
+                
+                <!-- accordion -->
+                <div class="col-sm-6  col-md-8">  
+
+                <span class="showmore"><a href="" title="expand all">Expand All</a></span>
+                    <div class="bsAccordion">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Heading</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet enim eget nunc gravida suscipit. Sed eu dapibus dolor. Ut eleifend ornare erat, eget sollicitudin arcu accumsan sit amet. Pellentesque sit amet augue vitae mi hendrerit mattis et ut elit. Maecenas tempus enim non neque lacinia, non commodo est semper. Nunc a dui porttitor purus ullamcorper malesuada. Vivamus sed nisi ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Heading</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet enim eget nunc gravida suscipit. Sed eu dapibus dolor. Ut eleifend ornare erat, eget sollicitudin arcu accumsan sit amet. Pellentesque sit amet augue vitae mi hendrerit mattis et ut elit. Maecenas tempus enim non neque lacinia, non commodo est semper. Nunc a dui porttitor purus ullamcorper malesuada. Vivamus sed nisi ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Heading</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet enim eget nunc gravida suscipit. Sed eu dapibus dolor. Ut eleifend ornare erat, eget sollicitudin arcu accumsan sit amet. Pellentesque sit amet augue vitae mi hendrerit mattis et ut elit. Maecenas tempus enim non neque lacinia, non commodo est semper. Nunc a dui porttitor purus ullamcorper malesuada. Vivamus sed nisi ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>	
+                    
+                </div>
+                
+                
+                <!-- rh col -->        
                 <!-- Related links -->
                 <div class="col-sm-6  col-md-4">
                     <div class="relatedlinks">
@@ -859,11 +937,9 @@
                         </article>
                     </div>
                     </div>
-                </div>
                 
                 
                 <!-- map -->
-                <div class="col-sm-6  col-md-4">
                     <div class="googlemap">
                     <h2 class="pane-title">Our Offices</h2>
                     <div class="articleBg">
@@ -880,10 +956,7 @@
                         </article>
                     </div>
                     </div>
-                </div>
-                
-                
-                
+                </div> 
                 
             </div>
         </div><!-- end col-12 -->

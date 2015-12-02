@@ -2248,6 +2248,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         padding:15px 5px;
         font-size: 20px;
         display:inline-block;
+        margin-left:10px;
     }
     .dykTeaser {
         position:relative;
@@ -2261,6 +2262,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         font-size: 24px;
         display:inline-block;
         font-family: $headingFontFamily;
+        margin-left:10px;
     }
     .dyKFact {
         display: inline-block;
@@ -2274,6 +2276,9 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         margin-top:-30px;
         margin-bottom:-20px;  
     }
+    .btn {
+        margin-left:10px;
+    }
 }
 
 // related links
@@ -2285,6 +2290,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         padding:15px;
         font-size: 20px;
         display:inline-block;
+        margin-left:10px;
     }
     .relatedLink a {
         text-decoration: none;
@@ -2297,11 +2303,11 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         background-color: #f6f6f6;
         padding:30px 20px 20px 20px;
         margin-top:-30px;
-        margin-bottom:-20px;  
+        margin-bottom:20px;  
     }
 }
 
-// related links
+// map
 
 .googlemap {
     .pane-title {
@@ -2310,7 +2316,83 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
         padding:15px;
         font-size: 20px;
         display:inline-block;
+        position:relative;  
+        z-index:99;
+        margin-left:10px;
     }
-    .map {margin-bottom:20px;}
-    .address {}
+    .map {
+        margin-bottom:20px;
+    }
+    .address {
+    }
+    article {
+        margin-top:-30px;    
+    }
+}
+
+
+
+// bootstrap accordion 
+
+#accordion {
+    text-align: left;
+}
+.panel-default {
+    border:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.panel-default>.panel-heading {
+    border:none;
+    border-radius:0;
+}
+.panel-default>.panel-heading a {
+    color:white;
+}
+.panel-default:nth-child(odd) .panel-heading{
+    background-color: $secondaryColour;
+}
+.panel-default:nth-child(even) .panel-heading{
+    background-color: lighten($secondaryColour,10%);
+}
+.panel-default>.panel-heading h4 {
+    font-family: $headingFontFamily;
+    font-size: 22px;
+}
+.panel-default>.panel-heading a {
+    text-decoration: none;
+}
+.panel-default .panel-title>a {
+    display: block;
+}
+.panel-default .panel-title a:after {
+    content:"\f068";
+    font-family: fontawesome;
+    position:absolute;
+    right:30px;
+    margin-top:5px;
+    font-size:14px;
+}
+.panel-default .panel-title a.collapsed:after {
+    content:"\f067";
+    font-family: fontawesome;
+    position:absolute;
+    right:30px;
+    margin-top:5px;
+    font-size:14px;
+}
+
+.showmore a:before {
+    content:"\f067";
+    font-family: fontawesome; 
+    font-weight: bold;
+    padding-right:10px;
+}
+.showmore  {
+    display:block;
+    margin:20px 0;
+    text-align: right;
+}
+.showmore a {
+    text-decoration: none;
 }
