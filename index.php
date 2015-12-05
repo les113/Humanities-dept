@@ -78,6 +78,15 @@
     });
     </script>
 
+	<!-- jquery.colorbox -->
+	<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
+	<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.colorbox').colorbox();
+		});
+	</script> 
         
     </head>
   <body>
@@ -674,13 +683,14 @@
             <!-- latest news -->
                 <div class="view-content row">
                     <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-md-4 latest-news-alt">
+					<div>
                         <h2 class="pane-title">Latest News</h2>
 
                         <article about="/news/here-news" typeof="sioc:Item foaf:Document" class="node node-oxdrupal-news-alt node-teaser node--oxdrupal_news--teaser">
                         <a href="/news/here-news">
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />          
                             </div>
                         </div>
                         <div class="teaser-field text-wrapper text-intro">
@@ -702,8 +712,7 @@
                         <a href="/news/here-news">
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
-                            </div>
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />                           </div>
                         </div>
                         <div class="teaser-field text-wrapper text-intro">
                             <div class="teaser-field date">
@@ -724,8 +733,7 @@
                         <a href="/news/here-news">
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_3.jpg?itok=0wOcFQSO" width="320" height="280" />          
-                            </div>
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />                           </div>
                         </div>
                         <div class="teaser-field text-wrapper text-intro">
                             <div class="teaser-field date">
@@ -741,10 +749,10 @@
                         </a>
                         <div class="clearfix"></div>
                         </article>
-                        
-                        <p><a class="btn btn-info btn-lg" href="/components-showcase" role="button">All news</a></p>
+                    </div>
+                    <p><a class="btn btn-info btn-lg" href="/components-showcase" role="button">All news</a></p>
 
-                    </div><!-- end col-4 -->
+                </div><!-- end col-4 -->
 
 
     <!-- latest events -->
@@ -764,8 +772,7 @@
                         </div>
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
-                            </div>
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />                           </div>
                         </div>
                         <div class="teaser-field text-wrapper">
                             <div class="teaser-field teaser-text">
@@ -788,8 +795,7 @@
                         </div>
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
-                            </div>
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />                            </div>
                         </div>
                         <div class="teaser-field text-wrapper">
                             <div class="teaser-field teaser-text">
@@ -812,8 +818,7 @@
                         </div>
                         <div class="teaser-field image-wrapper">
                             <div class="teaser-field image">
-                            <img typeof="foaf:Image" src="http://drupal-platform.dd:8083/sites/drupal-platform.dd/files/styles/teaser_image/public/images/news/example_image_1.jpg?itok=0wOcFQSO" width="320" height="280" />          
-                            </div>
+                            <img typeof="foaf:Image" src="img/carousel-image.jpg" width="320" height="280" />                           </div>
                         </div>
                         <div class="teaser-field text-wrapper">
                             <div class="teaser-field teaser-text">
@@ -911,6 +916,11 @@
                             </div>
                         </div>
                     </div>	
+					
+					<!-- colorbox test -->
+					<div>
+					<a class="colorbox" rel="group" href="img/example_image_1.jpg"><img  src="img/example_image_1_sml.jpg" alt="click to display large image" width="240" height="auto" /></a>
+					</div>
                     
                 </div>
                 
