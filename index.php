@@ -926,6 +926,15 @@
                         <i class="icon fa fa-expand"></i>
                         </a>
 					</div>
+                    
+                    <!-- tags -->
+                    <div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-hidden">
+                        <div class="field-items">
+                              <div class="field-item even"><a href="/tags/oxford" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-info">Oxford</a></div>
+                              <div class="field-item odd"><a href="/tags/drupal" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-info">Drupal</a></div>
+                              <div class="field-item even"><a href="/tags/university" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="btn btn-info">University</a></div>
+                          </div>
+                    </div>
 
                 </div>
                 

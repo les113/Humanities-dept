@@ -134,8 +134,8 @@ footer h2, footer p, footer li, #footer li a, #footer a {
   color: #fff; }
 
 .navpn .btn-info {
-  background-color: #A1C4D0;
-  border-color: #A1C4D0; }
+  background-color: #2fc2d1;
+  border-color: #2fc2d1; }
 
 /* site social icons */
 .block-social-media-links .fa {
@@ -2004,10 +2004,19 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .latest-events-alt article a {
   text-decoration: none; }
 
+.btn {
+  border: none; }
+
+.btn-info:hover, .field-type-taxonomy-term-reference .btn-info:hover {
+  background-color: #2fc2d1; }
+
 .btn-info:after {
   font-family: 'fontawesome';
   content: "\f105";
   padding-left: 10px; }
+
+.field-type-taxonomy-term-reference .btn-info:after {
+  content: ""; }
 
 .didyouknow .pane-title {
   background-color: #259ca8;

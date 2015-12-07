@@ -13,9 +13,9 @@ $primaryColour:#002147;
 $primaryColourText:#fff;
 $secondaryColour:#259ca8;
 $secondaryColourText:#fff;
-$activeColour:#259ca8;//#417c91;
+$activeColour:$secondaryColour;
 $activeColourText:#fff;
-$demphasisColour:#A1C4D0;
+$demphasisColour:lighten($secondaryColour,10%);
 
 // fonts
 $headingFontFamily: 'Lora', serif;
@@ -2231,10 +2231,19 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 
 
 // misc
+.btn {
+    border:none;
+}
+.btn-info:hover, .field-type-taxonomy-term-reference .btn-info:hover {
+    background-color: lighten($secondaryColour,10%);
+}
 .btn-info:after {        
     font-family: 'fontawesome';
     content:"\f105";
     padding-left:10px;
+}
+.field-type-taxonomy-term-reference .btn-info:after {        
+    content:""; // hide fa from tags
 }
 
 // did you know
