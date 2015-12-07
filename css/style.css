@@ -1956,16 +1956,14 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   color: #002147;
   text-decoration: none; }
 
-.latest-news-alt .node-oxdrupal-news-alt {
-  position: relative; }
 .latest-news-alt .teaser-field.image-wrapper {
   width: 40%;
-  float: left;
   padding: 10px 10px 0 0; }
 .latest-news-alt .node-teaser {
   background: none; }
 .latest-news-alt .text-wrapper.text-intro {
-  position: absolute;
+  float: right;
+  margin-top: -80px;
   top: 10px;
   right: 0;
   background-color: #f6f6f6;
@@ -1980,10 +1978,8 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .latest-news-alt .node-teaser .image-wrapper .image img {
   margin: 0; }
 .latest-news-alt article {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
-.latest-events-alt .node-oxdrupal-events-alt {
-  position: relative; }
 .latest-events-alt .teaser-field.image-wrapper {
   width: 30%;
   float: left;

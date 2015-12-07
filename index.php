@@ -701,7 +701,7 @@
                             <h3>Here is the news</h3>
                             </div>
                             <div class="teaser-field teaser-text">
-                            Professionally predominate plug-and-play catalysts.
+                             Professionally predominate plug-and-play catalysts for change vis-a-vis client-centric sources.
                             </div>
                         </div>
                         </a>

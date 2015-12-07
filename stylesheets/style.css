@@ -2965,105 +2965,97 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 }
 
 /* line 2207, ../sass/style.scss */
-.latest-news-alt .node-oxdrupal-news-alt {
-  position: relative;
-}
-/* line 2208, ../sass/style.scss */
 .latest-news-alt .teaser-field.image-wrapper {
   width: 40%;
-  float: left;
   padding: 10px 10px 0 0;
 }
-/* line 2209, ../sass/style.scss */
+/* line 2208, ../sass/style.scss */
 .latest-news-alt .node-teaser {
   background: none;
 }
-/* line 2210, ../sass/style.scss */
+/* line 2209, ../sass/style.scss */
 .latest-news-alt .text-wrapper.text-intro {
-  position: absolute;
+  float: right;
+  margin-top: -80px;
   top: 10px;
   right: 0;
   background-color: #f6f6f6;
   width: 66%;
   padding: 8px;
 }
-/* line 2211, ../sass/style.scss */
+/* line 2210, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .date {
   padding: 0 0 10px 0;
 }
-/* line 2212, ../sass/style.scss */
+/* line 2211, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .title {
   display: none;
 }
-/* line 2213, ../sass/style.scss */
+/* line 2212, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .teaser-text {
   padding: 0;
 }
-/* line 2214, ../sass/style.scss */
+/* line 2213, ../sass/style.scss */
 .latest-news-alt .node-teaser .image-wrapper .image img {
   margin: 0;
 }
-/* line 2215, ../sass/style.scss */
+/* line 2214, ../sass/style.scss */
 .latest-news-alt article {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-/* line 2221, ../sass/style.scss */
-.latest-events-alt .node-oxdrupal-events-alt {
-  position: relative;
-}
-/* line 2222, ../sass/style.scss */
+/* line 2220, ../sass/style.scss */
 .latest-events-alt .teaser-field.image-wrapper {
   width: 30%;
   float: left;
   padding: 10px 10px 0 0;
 }
-/* line 2223, ../sass/style.scss */
+/* line 2221, ../sass/style.scss */
 .latest-events-alt .teaser-field .teaser-text {
   margin-top: 10px;
 }
-/* line 2224, ../sass/style.scss */
+/* line 2222, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper {
   float: left;
   margin-top: 10px;
 }
-/* line 2225, ../sass/style.scss */
+/* line 2223, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper .date {
   padding: 0 0 10px 0;
 }
-/* line 2226, ../sass/style.scss */
+/* line 2224, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper .teaser-text {
   padding: 0;
 }
-/* line 2227, ../sass/style.scss */
+/* line 2225, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-intro {
   margin-top: 0;
 }
-/* line 2228, ../sass/style.scss */
+/* line 2226, ../sass/style.scss */
 .latest-events-alt .teaser-field {
   background: none;
 }
-/* line 2229, ../sass/style.scss */
+/* line 2227, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-intro:hover {
   background-color: #fff;
 }
-/* line 2230, ../sass/style.scss */
+/* line 2228, ../sass/style.scss */
 .latest-events-alt article {
   margin-bottom: 20px;
 }
-/* line 2231, ../sass/style.scss */
+/* line 2229, ../sass/style.scss */
 .latest-events-alt article a {
   text-decoration: none;
 }
 
-/* line 2236, ../sass/style.scss */
+/* line 2234, ../sass/style.scss */
 .btn-info:after {
   font-family: 'fontawesome';
   content: "\f105";
   padding-left: 10px;
 }
 
-/* line 2245, ../sass/style.scss */
+/* line 2243, ../sass/style.scss */
 .didyouknow .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3072,12 +3064,12 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   display: inline-block;
   margin-left: 10px;
 }
-/* line 2253, ../sass/style.scss */
+/* line 2251, ../sass/style.scss */
 .didyouknow .dykTeaser {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 2257, ../sass/style.scss */
+/* line 2255, ../sass/style.scss */
 .didyouknow .dykStat {
   background-color: #259ca8;
   color: #fff;
@@ -3088,26 +3080,26 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-family: "Lora", serif;
   margin-left: 10px;
 }
-/* line 2267, ../sass/style.scss */
+/* line 2265, ../sass/style.scss */
 .didyouknow .dyKFact {
   display: inline-block;
   position: absolute;
   top: 10px;
   padding-left: 10px;
 }
-/* line 2273, ../sass/style.scss */
+/* line 2271, ../sass/style.scss */
 .didyouknow article {
   background-color: #f6f6f6;
   padding: 30px 0 20px 0;
   margin-top: -30px;
   margin-bottom: -20px;
 }
-/* line 2279, ../sass/style.scss */
+/* line 2277, ../sass/style.scss */
 .didyouknow .btn {
   margin-left: 10px;
 }
 
-/* line 2287, ../sass/style.scss */
+/* line 2285, ../sass/style.scss */
 .relatedlinks .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3116,16 +3108,16 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   display: inline-block;
   margin-left: 10px;
 }
-/* line 2295, ../sass/style.scss */
+/* line 2293, ../sass/style.scss */
 .relatedlinks .relatedLink a {
   text-decoration: none;
   color: #259ca8;
 }
-/* line 2299, ../sass/style.scss */
+/* line 2297, ../sass/style.scss */
 .relatedlinks .relatedTeaser {
   margin-bottom: 10px;
 }
-/* line 2302, ../sass/style.scss */
+/* line 2300, ../sass/style.scss */
 .relatedlinks article {
   background-color: #f6f6f6;
   padding: 30px 20px 20px 20px;
@@ -3133,7 +3125,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   margin-bottom: 20px;
 }
 
-/* line 2313, ../sass/style.scss */
+/* line 2311, ../sass/style.scss */
 .googlemap .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3144,65 +3136,65 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   z-index: 99;
   margin-left: 10px;
 }
-/* line 2323, ../sass/style.scss */
+/* line 2321, ../sass/style.scss */
 .googlemap .map {
   margin-bottom: 20px;
 }
-/* line 2328, ../sass/style.scss */
+/* line 2326, ../sass/style.scss */
 .googlemap article {
   margin-top: -30px;
 }
 
-/* line 2337, ../sass/style.scss */
+/* line 2335, ../sass/style.scss */
 #accordion {
   text-align: left;
 }
 
-/* line 2340, ../sass/style.scss */
+/* line 2338, ../sass/style.scss */
 .panel-default {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 2345, ../sass/style.scss */
+/* line 2343, ../sass/style.scss */
 .panel-default > .panel-heading {
   border: none;
   border-radius: 0;
 }
 
-/* line 2349, ../sass/style.scss */
+/* line 2347, ../sass/style.scss */
 .panel-default > .panel-heading a {
   color: white;
 }
 
-/* line 2352, ../sass/style.scss */
+/* line 2350, ../sass/style.scss */
 .panel-default:nth-child(odd) .panel-heading {
   background-color: #259ca8;
 }
 
-/* line 2355, ../sass/style.scss */
+/* line 2353, ../sass/style.scss */
 .panel-default:nth-child(even) .panel-heading {
   background-color: #2fc2d1;
 }
 
-/* line 2358, ../sass/style.scss */
+/* line 2356, ../sass/style.scss */
 .panel-default > .panel-heading h4 {
   font-family: "Lora", serif;
   font-size: 22px;
 }
 
-/* line 2362, ../sass/style.scss */
+/* line 2360, ../sass/style.scss */
 .panel-default > .panel-heading a {
   text-decoration: none;
 }
 
-/* line 2365, ../sass/style.scss */
+/* line 2363, ../sass/style.scss */
 .panel-default .panel-title > a {
   display: block;
 }
 
-/* line 2368, ../sass/style.scss */
+/* line 2366, ../sass/style.scss */
 .panel-default .panel-title a:after {
   content: "\f068";
   font-family: fontawesome;
@@ -3212,7 +3204,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-size: 14px;
 }
 
-/* line 2376, ../sass/style.scss */
+/* line 2374, ../sass/style.scss */
 .panel-default .panel-title a.collapsed:after {
   content: "\f067";
   font-family: fontawesome;
@@ -3222,7 +3214,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-size: 14px;
 }
 
-/* line 2385, ../sass/style.scss */
+/* line 2383, ../sass/style.scss */
 .showmore a:before {
   content: "\f067";
   font-family: fontawesome;
@@ -3230,14 +3222,14 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   padding-right: 10px;
 }
 
-/* line 2391, ../sass/style.scss */
+/* line 2389, ../sass/style.scss */
 .showmore {
   display: block;
   margin: 20px 0;
   text-align: right;
 }
 
-/* line 2396, ../sass/style.scss */
+/* line 2394, ../sass/style.scss */
 .showmore a {
   text-decoration: none;
 }

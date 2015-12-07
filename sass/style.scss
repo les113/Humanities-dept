@@ -2204,21 +2204,19 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 // latest news alt layout
 
 .latest-news-alt {
-    .node-oxdrupal-news-alt {position:relative;}
-    .teaser-field.image-wrapper {width:40%;float:left;padding:10px 10px 0 0;}
+    .teaser-field.image-wrapper {width:40%;padding:10px 10px 0 0;}
     .node-teaser {background:none;}
-    .text-wrapper.text-intro {position:absolute;top:10px;right:0;background-color: #f6f6f6;width:66%;padding:8px;}
+    .text-wrapper.text-intro {float:right; margin-top:-80px; top:10px; right:0; background-color: #f6f6f6;width:66%;padding:8px;}
     .node-teaser .text-wrapper .date {padding: 0 0 10px 0;}
     .node-teaser .text-wrapper .title {display:none;}
     .node-teaser .text-wrapper .teaser-text {padding:0;}
     .node-teaser .image-wrapper .image img {margin:0;}
-    article {margin-bottom:20px;}
+    article {margin-bottom:10px;}
 }
 
 // latest events alt layout
 
 .latest-events-alt {
-    .node-oxdrupal-events-alt {position:relative;}
     .teaser-field.image-wrapper {width:30%;float:left;padding:10px 10px 0 0;}
     .teaser-field .teaser-text {margin-top:10px;}
     .teaser-field .text-wrapper {float:left; margin-top:10px;}
