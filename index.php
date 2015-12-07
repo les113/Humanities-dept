@@ -919,9 +919,14 @@
 					
 					<!-- colorbox test -->
 					<div>
-					<a class="colorbox" rel="group" href="img/example_image_1.jpg"><img  src="img/example_image_1_sml.jpg" alt="click to display large image" width="240" height="auto" /></a>
+					   <a class="colorbox" rel="group" href="img/example_image_1.jpg"><img  src="img/example_image_1_sml.jpg" alt="click to display large image" width="240" height="auto" />
+                        <i class="icon fa fa-expand"></i>
+                        </a>
+					   <a class="colorbox" rel="group" href="img/example_image_1.jpg"><img  src="img/example_image_1_sml.jpg" alt="click to display large image" width="240" height="auto" />
+                        <i class="icon fa fa-expand"></i>
+                        </a>
 					</div>
-                    
+
                 </div>
                 
                 

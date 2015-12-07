@@ -2394,3 +2394,36 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .showmore a {
     text-decoration: none;
 }
+
+
+// enlarge image
+
+.colorbox {
+    position:relative;
+    .icon {
+        @include transition (all .2s ease-in-out); 
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        margin-bottom:20px;
+        background-color: black;
+        opacity:0.5;
+        position: absolute;
+        right:10px;
+        top:-55px;
+    }
+    .fa {
+        color:white;
+        font-size: 17px;
+        padding: 7px;
+    }
+}
+.colorbox:hover .icon {
+        transform: scale(1.2); 
+        background-color: $secondaryColour;
+        color:$secondaryColourText;
+        opacity:1;
+}
+#colorbox button, #cboxWrapper, #colorbox {
+    border:none;
+}

@@ -2134,4 +2134,34 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .showmore a {
   text-decoration: none; }
 
+.colorbox {
+  position: relative; }
+  .colorbox .icon {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    right: 10px;
+    top: -55px; }
+  .colorbox .fa {
+    color: white;
+    font-size: 17px;
+    padding: 7px; }
+
+.colorbox:hover .icon {
+  transform: scale(1.2);
+  background-color: #259ca8;
+  color: #fff;
+  opacity: 1; }
+
+#colorbox button, #cboxWrapper, #colorbox {
+  border: none; }
+
 /*# sourceMappingURL=style.css.map */
