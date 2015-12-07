@@ -2031,8 +2031,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .didyouknow .dyKFact {
   display: inline-block;
   position: absolute;
-  top: 10px;
-  padding-left: 10px; }
+  padding: 10px; }
 .didyouknow article {
   background-color: #f6f6f6;
   padding: 30px 0 20px 0;
