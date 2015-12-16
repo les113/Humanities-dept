@@ -1778,7 +1778,9 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .carousel article.node-teaser > .text-wrapper {
   padding: 10px 15px; }
 
-/* owl carousel */
+.carousel article.node-teaser .teaser-text {
+  height: 50px; }
+
 .owl-item img {
   margin-top: 10px; }
 
@@ -1794,7 +1796,8 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   float: left;
   position: absolute;
   top: 120px;
-  left: -30px; }
+  left: -200px;
+  opacity: 0; }
 
 .owl-next:before {
   font-family: 'fontawesome';
@@ -1805,11 +1808,26 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   padding: 10px;
   position: absolute;
   top: 120px;
-  right: -30px; }
+  right: -200px;
+  opacity: 0; }
 
 .owl-prev:hover:before, .owl-next:hover:before {
   color: #fff;
   background-color: #259ca8; }
+
+.carousel:hover .owl-prev:before {
+  transition: 1s ease-in-out;
+  opacity: 1;
+  left: -30px; }
+
+.carousel:hover .owl-next:before {
+  transition: 1s ease-in-out;
+  opacity: 1;
+  right: -30px; }
+
+.owl-prev:before, .owl-next:before {
+  opacity: 0;
+  transition: 1s 3s; }
 
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
   width: 100%;

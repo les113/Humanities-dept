@@ -1937,8 +1937,11 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
     }
 }
 
-
-// NEW styles start
+//
+//
+// NEW styles for Humanities Dept start here
+//
+//
 
 // featured
 
@@ -1962,36 +1965,59 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 .carousel article.node-teaser > .text-wrapper {
     padding:10px 15px;
 }
+.carousel article.node-teaser .teaser-text {
+    height:50px;
+}
 
-        /* owl carousel */
-        .owl-item img{
-            margin-top:10px;
-        }
-        .owl-carousel img{
-            height:180px;
-        }
-        .owl-prev:before {
-          font-family: 'fontawesome';
-            content:"\f104";
-            color:$primaryColourText;
-            background-color:$primaryColour;
-            padding:10px;
-            float:left;
-            position:absolute;top:120px;left:-30px;
-        }
-        .owl-next:before {
-          font-family: 'fontawesome';
-            content:"\f105";
-            float:left;
-            color:$primaryColourText;
-            background-color:$primaryColour;
-            padding:10px;
-            position:absolute;top:120px;right:-30px;
-        }   
-        .owl-prev:hover:before, .owl-next:hover:before {
-            color:$secondaryColourText;
-            background-color:$secondaryColour;
-        }
+.owl-item img{
+    margin-top:10px;
+}
+.owl-carousel img{
+    height:180px;
+}
+.owl-prev:before {
+  font-family: 'fontawesome';
+    content:"\f104";
+    color:$primaryColourText;
+    background-color:$primaryColour;
+    padding:10px;
+    float:left;
+    position:absolute;
+    top:120px;
+    left:-200px;
+    opacity: 0; 
+}
+.owl-next:before {
+  font-family: 'fontawesome';
+    content:"\f105";
+    float:left;
+    color:$primaryColourText;
+    background-color:$primaryColour;
+    padding:10px;
+    position:absolute;
+    top:120px;
+    right:-200px;
+    opacity:0;
+}   
+.owl-prev:hover:before, .owl-next:hover:before {
+    color:$secondaryColourText;
+    background-color:$secondaryColour;
+}
+
+.carousel:hover .owl-prev:before {
+    transition: 1s ease-in-out;
+    opacity:1;
+    left:-30px;
+}
+.carousel:hover .owl-next:before {
+    transition: 1s ease-in-out;
+    opacity:1;
+    right:-30px;
+}
+.owl-prev:before, .owl-next:before {
+    opacity:0;
+    transition: 1s 3s;  // stay visible for x sec      
+}
 
 
 

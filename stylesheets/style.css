@@ -2679,40 +2679,44 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
     width: 340px;
   }
 }
-/* line 1945, ../sass/style.scss */
+/* line 1948, ../sass/style.scss */
 .featured article.node-teaser > .text-wrapper .title {
   padding: 2px;
   text-align: center;
 }
 
-/* line 1950, ../sass/style.scss */
+/* line 1953, ../sass/style.scss */
 .featured article.node-teaser > .text-wrapper {
   padding: 10px 15px;
 }
 
-/* line 1957, ../sass/style.scss */
+/* line 1960, ../sass/style.scss */
 .carousel article.node-teaser > .text-wrapper .title {
   padding: 2px;
   text-align: center;
 }
 
-/* line 1962, ../sass/style.scss */
+/* line 1965, ../sass/style.scss */
 .carousel article.node-teaser > .text-wrapper {
   padding: 10px 15px;
 }
 
-/* owl carousel */
-/* line 1967, ../sass/style.scss */
+/* line 1968, ../sass/style.scss */
+.carousel article.node-teaser .teaser-text {
+  height: 50px;
+}
+
+/* line 1972, ../sass/style.scss */
 .owl-item img {
   margin-top: 10px;
 }
 
-/* line 1970, ../sass/style.scss */
+/* line 1975, ../sass/style.scss */
 .owl-carousel img {
   height: 180px;
 }
 
-/* line 1973, ../sass/style.scss */
+/* line 1978, ../sass/style.scss */
 .owl-prev:before {
   font-family: 'fontawesome';
   content: "\f104";
@@ -2722,10 +2726,11 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   float: left;
   position: absolute;
   top: 120px;
-  left: -30px;
+  left: -200px;
+  opacity: 0;
 }
 
-/* line 1982, ../sass/style.scss */
+/* line 1990, ../sass/style.scss */
 .owl-next:before {
   font-family: 'fontawesome';
   content: "\f105";
@@ -2735,16 +2740,37 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   padding: 10px;
   position: absolute;
   top: 120px;
-  right: -30px;
+  right: -200px;
+  opacity: 0;
 }
 
-/* line 1991, ../sass/style.scss */
+/* line 2002, ../sass/style.scss */
 .owl-prev:hover:before, .owl-next:hover:before {
   color: #fff;
   background-color: #259ca8;
 }
 
-/* line 2000, ../sass/style.scss */
+/* line 2007, ../sass/style.scss */
+.carousel:hover .owl-prev:before {
+  transition: 1s ease-in-out;
+  opacity: 1;
+  left: -30px;
+}
+
+/* line 2012, ../sass/style.scss */
+.carousel:hover .owl-next:before {
+  transition: 1s ease-in-out;
+  opacity: 1;
+  right: -30px;
+}
+
+/* line 2017, ../sass/style.scss */
+.owl-prev:before, .owl-next:before {
+  opacity: 0;
+  transition: 1s 3s;
+}
+
+/* line 2026, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 {
   width: 100%;
   height: 400px;
@@ -2752,27 +2778,27 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-family: "Lora", serif;
   background: none;
 }
-/* line 2006, ../sass/style.scss */
+/* line 2032, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
   padding: 20px;
   height: 400px;
   width: 380px;
 }
-/* line 2011, ../sass/style.scss */
+/* line 2037, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .title {
   font-size: 2.2em;
   margin-top: 70px;
 }
-/* line 2015, ../sass/style.scss */
+/* line 2041, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .teaser-text {
   font-size: 1.4em;
 }
-/* line 2018, ../sass/style.scss */
+/* line 2044, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .image {
   width: auto;
   float: none;
 }
-/* line 2022, ../sass/style.scss */
+/* line 2048, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .image img {
   width: 100%;
   height: 400px;
@@ -2783,20 +2809,20 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   z-index: -1;
   border: none;
 }
-/* line 2032, ../sass/style.scss */
+/* line 2058, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .btn {
   margin-top: 20px;
   text-align: left;
   color: #fff;
   background-color: #002147;
 }
-/* line 2038, ../sass/style.scss */
+/* line 2064, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-row a {
   display: inline-block;
   width: auto;
 }
 @media (max-width: 760px) {
-  /* line 2044, ../sass/style.scss */
+  /* line 2070, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
     width: 100%;
   }
@@ -2804,7 +2830,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 
 /* slideshow3 controls */
 @media (min-width: 760px) {
-  /* line 2059, ../sass/style.scss */
+  /* line 2085, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-bottom {
     position: absolute;
     top: 50%;
@@ -2812,20 +2838,20 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
     left: 50%;
     right: 50%;
   }
-  /* line 2069, ../sass/style.scss */
+  /* line 2095, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text a {
     display: none;
   }
-  /* line 2072, ../sass/style.scss */
+  /* line 2098, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
     text-decoration: none;
     font-size: 2.0em;
   }
-  /* line 2076, ../sass/style.scss */
+  /* line 2102, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-pause {
     display: none;
   }
-  /* line 2079, ../sass/style.scss */
+  /* line 2105, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:after {
     font-family: FontAwesome;
     content: "\f104";
@@ -2837,7 +2863,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
     left: -800px;
     opacity: 0;
   }
-  /* line 2090, ../sass/style.scss */
+  /* line 2116, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:after {
     font-family: FontAwesome;
     content: "\f105";
@@ -2849,97 +2875,97 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
     right: -800px;
     opacity: 0;
   }
-  /* line 2101, ../sass/style.scss */
+  /* line 2127, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-previous:hover:after, .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text-next:hover:after {
     color: #fff;
     background-color: #259ca8;
     cursor: pointer;
   }
 
-  /* line 2111, ../sass/style.scss */
+  /* line 2137, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after,
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
     transition: 1s ease-in-out;
     opacity: 1;
   }
 
-  /* line 2116, ../sass/style.scss */
+  /* line 2142, ../sass/style.scss */
   .views-slideshow-controls-text-previous:after, .views-slideshow-controls-text-next:after {
     opacity: 0;
     transition: 1s 3s;
   }
 }
 @media (min-width: 1200px) {
-  /* line 2124, ../sass/style.scss */
+  /* line 2150, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
     left: -630px;
   }
 
-  /* line 2127, ../sass/style.scss */
+  /* line 2153, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
     right: -600px;
   }
 }
 @media (min-width: 980px) and (max-width: 1200px) {
-  /* line 2133, ../sass/style.scss */
+  /* line 2159, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
     left: -530px;
   }
 
-  /* line 2136, ../sass/style.scss */
+  /* line 2162, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
     right: -500px;
   }
 }
 @media (min-width: 760px) and (max-width: 980px) {
-  /* line 2142, ../sass/style.scss */
+  /* line 2168, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
     left: -430px;
   }
 
-  /* line 2145, ../sass/style.scss */
+  /* line 2171, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
     right: -400px;
   }
 }
 @media (max-width: 760px) {
-  /* line 2150, ../sass/style.scss */
+  /* line 2176, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-previous:after {
     left: -430px;
   }
 
-  /* line 2153, ../sass/style.scss */
+  /* line 2179, ../sass/style.scss */
   .oxdrupal-slideshow.oxdrupal-slideshow-style-3:hover .views-slideshow-controls-text-next:after {
     right: -400px;
   }
 }
 @media (max-width: 760px) {
-  /* line 2162, ../sass/style.scss */
+  /* line 2188, ../sass/style.scss */
   .views-slideshow-controls-text {
     margin-left: 10px;
   }
 
-  /* line 2165, ../sass/style.scss */
+  /* line 2191, ../sass/style.scss */
   .views-slideshow-controls-text-previous:after {
     font-family: FontAwesome;
     content: "\f053";
     margin-right: 10px;
   }
 
-  /* line 2170, ../sass/style.scss */
+  /* line 2196, ../sass/style.scss */
   .views-slideshow-controls-text-next:after {
     font-family: FontAwesome;
     content: "\f054";
   }
 
-  /* line 2174, ../sass/style.scss */
+  /* line 2200, ../sass/style.scss */
   .views-slideshow-controls-text-pause:after {
     font-family: FontAwesome;
     content: "\f04c";
     margin-right: 10px;
   }
 
-  /* line 2182, ../sass/style.scss */
+  /* line 2208, ../sass/style.scss */
   .views-slideshow-controls-text-previous a,
   .views-slideshow-controls-text-next a,
   .views-slideshow-controls-text-pause a {
@@ -2947,33 +2973,33 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   }
 }
 /* slideshow 3 colour - move to oxtheme_common.css  */
-/* line 2189, ../sass/style.scss */
+/* line 2215, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .slidetext {
   background-color: #259ca8;
   color: #fff;
 }
 
-/* line 2194, ../sass/style.scss */
+/* line 2220, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text {
   color: #fff;
 }
 
-/* line 2197, ../sass/style.scss */
+/* line 2223, ../sass/style.scss */
 .oxdrupal-slideshow.oxdrupal-slideshow-style-3 .views-slideshow-controls-text span:hover {
   color: #002147;
   text-decoration: none;
 }
 
-/* line 2207, ../sass/style.scss */
+/* line 2233, ../sass/style.scss */
 .latest-news-alt .teaser-field.image-wrapper {
   width: 40%;
   padding: 10px 10px 0 0;
 }
-/* line 2208, ../sass/style.scss */
+/* line 2234, ../sass/style.scss */
 .latest-news-alt .node-teaser {
   background: none;
 }
-/* line 2209, ../sass/style.scss */
+/* line 2235, ../sass/style.scss */
 .latest-news-alt .text-wrapper.text-intro {
   float: right;
   margin-top: -80px;
@@ -2983,94 +3009,94 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   width: 66%;
   padding: 8px;
 }
-/* line 2210, ../sass/style.scss */
+/* line 2236, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .date {
   padding: 0 0 10px 0;
 }
-/* line 2211, ../sass/style.scss */
+/* line 2237, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .title {
   display: none;
 }
-/* line 2212, ../sass/style.scss */
+/* line 2238, ../sass/style.scss */
 .latest-news-alt .node-teaser .text-wrapper .teaser-text {
   padding: 0;
 }
-/* line 2213, ../sass/style.scss */
+/* line 2239, ../sass/style.scss */
 .latest-news-alt .node-teaser .image-wrapper .image img {
   margin: 0;
 }
-/* line 2214, ../sass/style.scss */
+/* line 2240, ../sass/style.scss */
 .latest-news-alt article {
   margin-bottom: 10px;
 }
 
-/* line 2220, ../sass/style.scss */
+/* line 2246, ../sass/style.scss */
 .latest-events-alt .teaser-field.image-wrapper {
   width: 30%;
   float: left;
   padding: 10px 10px 0 0;
 }
-/* line 2221, ../sass/style.scss */
+/* line 2247, ../sass/style.scss */
 .latest-events-alt .teaser-field .teaser-text {
   margin-top: 10px;
 }
-/* line 2222, ../sass/style.scss */
+/* line 2248, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper {
   float: left;
   margin-top: 10px;
 }
-/* line 2223, ../sass/style.scss */
+/* line 2249, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper .date {
   padding: 0 0 10px 0;
 }
-/* line 2224, ../sass/style.scss */
+/* line 2250, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-wrapper .teaser-text {
   padding: 0;
 }
-/* line 2225, ../sass/style.scss */
+/* line 2251, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-intro {
   margin-top: 0;
 }
-/* line 2226, ../sass/style.scss */
+/* line 2252, ../sass/style.scss */
 .latest-events-alt .teaser-field {
   background: none;
 }
-/* line 2227, ../sass/style.scss */
+/* line 2253, ../sass/style.scss */
 .latest-events-alt .teaser-field .text-intro:hover {
   background-color: #fff;
 }
-/* line 2228, ../sass/style.scss */
+/* line 2254, ../sass/style.scss */
 .latest-events-alt article {
   margin-bottom: 20px;
 }
-/* line 2229, ../sass/style.scss */
+/* line 2255, ../sass/style.scss */
 .latest-events-alt article a {
   text-decoration: none;
 }
 
-/* line 2234, ../sass/style.scss */
+/* line 2260, ../sass/style.scss */
 .btn {
   border: none;
 }
 
-/* line 2237, ../sass/style.scss */
+/* line 2263, ../sass/style.scss */
 .btn-info:hover, .field-type-taxonomy-term-reference .btn-info:hover {
   background-color: #2fc2d1;
 }
 
-/* line 2240, ../sass/style.scss */
+/* line 2266, ../sass/style.scss */
 .btn-info:after {
   font-family: 'fontawesome';
   content: "\f105";
   padding-left: 10px;
 }
 
-/* line 2245, ../sass/style.scss */
+/* line 2271, ../sass/style.scss */
 .field-type-taxonomy-term-reference .btn-info:after {
   content: "";
 }
 
-/* line 2252, ../sass/style.scss */
+/* line 2278, ../sass/style.scss */
 .didyouknow .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3079,12 +3105,12 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   display: inline-block;
   margin-left: 10px;
 }
-/* line 2260, ../sass/style.scss */
+/* line 2286, ../sass/style.scss */
 .didyouknow .dykTeaser {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 2264, ../sass/style.scss */
+/* line 2290, ../sass/style.scss */
 .didyouknow .dykStat {
   background-color: #259ca8;
   color: #fff;
@@ -3095,25 +3121,25 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-family: "Lora", serif;
   margin-left: 10px;
 }
-/* line 2274, ../sass/style.scss */
+/* line 2300, ../sass/style.scss */
 .didyouknow .dyKFact {
   display: inline-block;
   position: absolute;
   padding: 10px;
 }
-/* line 2279, ../sass/style.scss */
+/* line 2305, ../sass/style.scss */
 .didyouknow article {
   background-color: #f6f6f6;
   padding: 30px 0 20px 0;
   margin-top: -30px;
   margin-bottom: -20px;
 }
-/* line 2285, ../sass/style.scss */
+/* line 2311, ../sass/style.scss */
 .didyouknow .btn {
   margin-left: 10px;
 }
 
-/* line 2293, ../sass/style.scss */
+/* line 2319, ../sass/style.scss */
 .relatedlinks .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3122,16 +3148,16 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   display: inline-block;
   margin-left: 10px;
 }
-/* line 2301, ../sass/style.scss */
+/* line 2327, ../sass/style.scss */
 .relatedlinks .relatedLink a {
   text-decoration: none;
   color: #259ca8;
 }
-/* line 2305, ../sass/style.scss */
+/* line 2331, ../sass/style.scss */
 .relatedlinks .relatedTeaser {
   margin-bottom: 10px;
 }
-/* line 2308, ../sass/style.scss */
+/* line 2334, ../sass/style.scss */
 .relatedlinks article {
   background-color: #f6f6f6;
   padding: 30px 20px 20px 20px;
@@ -3139,7 +3165,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   margin-bottom: 20px;
 }
 
-/* line 2319, ../sass/style.scss */
+/* line 2345, ../sass/style.scss */
 .googlemap .pane-title {
   background-color: #259ca8;
   color: #fff;
@@ -3150,65 +3176,65 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   z-index: 99;
   margin-left: 10px;
 }
-/* line 2329, ../sass/style.scss */
+/* line 2355, ../sass/style.scss */
 .googlemap .map {
   margin-bottom: 20px;
 }
-/* line 2334, ../sass/style.scss */
+/* line 2360, ../sass/style.scss */
 .googlemap article {
   margin-top: -30px;
 }
 
-/* line 2343, ../sass/style.scss */
+/* line 2369, ../sass/style.scss */
 #accordion {
   text-align: left;
 }
 
-/* line 2346, ../sass/style.scss */
+/* line 2372, ../sass/style.scss */
 .panel-default {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 2351, ../sass/style.scss */
+/* line 2377, ../sass/style.scss */
 .panel-default > .panel-heading {
   border: none;
   border-radius: 0;
 }
 
-/* line 2355, ../sass/style.scss */
+/* line 2381, ../sass/style.scss */
 .panel-default > .panel-heading a {
   color: white;
 }
 
-/* line 2358, ../sass/style.scss */
+/* line 2384, ../sass/style.scss */
 .panel-default:nth-child(odd) .panel-heading {
   background-color: #259ca8;
 }
 
-/* line 2361, ../sass/style.scss */
+/* line 2387, ../sass/style.scss */
 .panel-default:nth-child(even) .panel-heading {
   background-color: #2fc2d1;
 }
 
-/* line 2364, ../sass/style.scss */
+/* line 2390, ../sass/style.scss */
 .panel-default > .panel-heading h4 {
   font-family: "Lora", serif;
   font-size: 22px;
 }
 
-/* line 2368, ../sass/style.scss */
+/* line 2394, ../sass/style.scss */
 .panel-default > .panel-heading a {
   text-decoration: none;
 }
 
-/* line 2371, ../sass/style.scss */
+/* line 2397, ../sass/style.scss */
 .panel-default .panel-title > a {
   display: block;
 }
 
-/* line 2374, ../sass/style.scss */
+/* line 2400, ../sass/style.scss */
 .panel-default .panel-title a:after {
   content: "\f068";
   font-family: fontawesome;
@@ -3218,7 +3244,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-size: 14px;
 }
 
-/* line 2382, ../sass/style.scss */
+/* line 2408, ../sass/style.scss */
 .panel-default .panel-title a.collapsed:after {
   content: "\f067";
   font-family: fontawesome;
@@ -3228,7 +3254,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   font-size: 14px;
 }
 
-/* line 2391, ../sass/style.scss */
+/* line 2417, ../sass/style.scss */
 .showmore a:before {
   content: "\f067";
   font-family: fontawesome;
@@ -3236,23 +3262,23 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   padding-right: 10px;
 }
 
-/* line 2397, ../sass/style.scss */
+/* line 2423, ../sass/style.scss */
 .showmore {
   display: block;
   margin: 20px 0;
   text-align: right;
 }
 
-/* line 2402, ../sass/style.scss */
+/* line 2428, ../sass/style.scss */
 .showmore a {
   text-decoration: none;
 }
 
-/* line 2409, ../sass/style.scss */
+/* line 2435, ../sass/style.scss */
 .colorbox {
   position: relative;
 }
-/* line 2411, ../sass/style.scss */
+/* line 2437, ../sass/style.scss */
 .colorbox .icon {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -3268,14 +3294,14 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   right: 10px;
   top: -55px;
 }
-/* line 2423, ../sass/style.scss */
+/* line 2449, ../sass/style.scss */
 .colorbox .fa {
   color: white;
   font-size: 17px;
   padding: 7px;
 }
 
-/* line 2429, ../sass/style.scss */
+/* line 2455, ../sass/style.scss */
 .colorbox:hover .icon {
   transform: scale(1.2);
   background-color: #259ca8;
@@ -3283,7 +3309,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
   opacity: 1;
 }
 
-/* line 2435, ../sass/style.scss */
+/* line 2461, ../sass/style.scss */
 #colorbox button, #cboxWrapper, #colorbox {
   border: none;
 }
