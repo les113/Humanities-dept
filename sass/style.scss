@@ -2430,7 +2430,7 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 }
 
 
-// enlarge image
+// lightbox
 
 .colorbox {
     position:relative;
@@ -2460,4 +2460,24 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 }
 #colorbox button, #cboxWrapper, #colorbox {
     border:none;
+}
+
+// image hover effect
+
+.lightboxImg {   
+    overflow: hidden;
+    width:240px;
+    height:150px;
+    margin-right: 20px;
+    float:left;
+}
+.grow img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.grow img:hover {
+        transform: scale(1.1); 
 }

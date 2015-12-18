@@ -3313,3 +3313,26 @@ a.jcarousel-prev.jcarousel-prev-horizontal, a.jcarousel-next.jcarousel-next-hori
 #colorbox button, #cboxWrapper, #colorbox {
   border: none;
 }
+
+/* line 2467, ../sass/style.scss */
+.lightboxImg {
+  overflow: hidden;
+  width: 240px;
+  height: 150px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* line 2474, ../sass/style.scss */
+.grow img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 2481, ../sass/style.scss */
+.grow img:hover {
+  transform: scale(1.1);
+}

@@ -4,6 +4,12 @@
 (function () {
   "use strict";
 
+   jQuery(document).ready(function($) {
+     equalHeight($(".people .teaser-text"));
+     equalHeight($(".featured .teaser-text"));
+   });
+    
+    
     //Set columns in a row to the height of the largest to avoid strange wrapping issues
     function equalHeight(group) {
 		var tallest = 0;
@@ -15,10 +21,6 @@
 		});
 		group.height(tallest);
     }
-
-   jQuery(document).ready(function($) {
-     equalHeight($(".people .teaser-text"));
-     equalHeight($(".featured .teaser-text"));
-   });
+    
 })();
 
